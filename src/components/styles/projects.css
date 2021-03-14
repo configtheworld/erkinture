@@ -1,0 +1,22 @@
+.vertical:horizontal{
+    --scrollbarBG: #7a7a7a;
+    --thumbBG: #343434;
+  }
+  .vertical::-webkit-scrollbar {
+    width: 15px;
+  }
+  .vertical::-webkit-scrollbar {
+    width: 15px;
+  }
+  .vertical {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+  .vertical::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  .vertical::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }

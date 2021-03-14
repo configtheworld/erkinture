@@ -1,0 +1,14 @@
+
+.headline{
+    text-align: center;
+}
+.jumping-button {
+    animation: 2s bounce ease infinite;
+}
+
+
+@keyframes bounce {  
+    50% {
+        transform: translateY(15px);
+    }
+}

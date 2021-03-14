@@ -1,38 +1,95 @@
-.App {
+html {
+  scroll-behavior: smooth;
+  --scrollbarBG: #7a7a7a;
+  --thumbBG: #343434;
+}
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  /*background-image: linear-gradient(#343434, #161B22);*/
+  background-color: #343434;
+  min-height: calc(100vh - var(--vh-offset, 0px));
+  overflow-x: hidden;
+  font-weight: 400;
+  top: 0;
+  color: #252525;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.025em;
+}
+
+.imagehover:hover{
+  transform: translatey(-7%);
+  transition: ease 0.3s;
+}
+
+
+.header-design {
+  background-color: #7A7A7A;
+  background-image: linear-gradient(326deg, #7A7A7A 0%, #7a7a7a 74%);
+  height: 120px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.listar-map-button {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 200px;
+  line-height: 164px;
+  white-space: nowrap;
+  font-size: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.listar-map-button {
+  right: auto;
+  /***
+    box-shadow: 0 0 65px rgba(0,0,0,.07) inset, 0 0 35px rgba(0,0,0,.05) inset;**/
+}
+.sha{
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
+                 0px 4px 3px rgba(0,0,0,0.1),
+                  0px 4px 3px rgba(0,0,0,0.1);
+}
+header .footer-wave {
+  max-width: 102%;
+  width: 100%;
+  height: 187.8px;
+  left: 0;
+  z-index: 1;
+  bottom: -67px;
+  background: url("components/hero-wave.png")
+    repeat-x;
+  animation: wave 10s cubic-bezier(0.44, 0.66, 0.67, 0.37) infinite;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 1440px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pset {
+  padding-top: 180px;
+  padding-bottom: 80px;
+  width: 100%;
 }
