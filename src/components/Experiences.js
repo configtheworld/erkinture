@@ -6,6 +6,18 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
 import './styles/languages.css';
+import js from './styles/js.png';
+import node from './styles/node.svg';
+import react from './styles/logo512.png';
+import express from './styles/express.png';
+import java from './styles/java.png';
+import cpp from './styles/cpp.png';
+import py from './styles/py.png';
+import db1 from './styles/mysql.png';
+import db2 from './styles/postgre.png';
+import db3 from './styles/MongoDB.png';
+import start4ups from './styles/start.png';
+import ecc from './styles/ecc.jpeg';
 const { Step } = Steps;
 const useStyles = makeStyles({
   root: {
@@ -86,7 +98,7 @@ const Experiences = () => {
               >
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
-                    src='/js.png'
+                    src={js}
                     height='50px'
                     width='50px'
                     className={classes.circlebutton}
@@ -96,7 +108,7 @@ const Experiences = () => {
                 </div>
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
-                    src='/node.svg'
+                    src={node}
                     height='50px'
                     width='50px'
                     alt='nodejs'
@@ -107,7 +119,7 @@ const Experiences = () => {
                 </div>
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
-                    src='/logo512.png'
+                    src={react}
                     height='50px'
                     width='50px'
                     alt='reactjs'
@@ -117,7 +129,7 @@ const Experiences = () => {
                 </div>
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
-                    src='/express.png'
+                    src={express}
                     height='50px'
                     width='50px'
                     alt='expressjs'
@@ -143,7 +155,7 @@ const Experiences = () => {
               >
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
-                    src='/java.png'
+                    src={java}
                     height='40px'
                     width='40px'
                     alt='java'
@@ -154,7 +166,7 @@ const Experiences = () => {
                 </div>
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
-                    src='/cpp.png'
+                    src={cpp}
                     height='40px'
                     width='40px'
                     alt='cpp'
@@ -165,7 +177,7 @@ const Experiences = () => {
                 </div>
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
-                    src='/py.png'
+                    src={py}
                     height='40px'
                     width='40px'
                     alt='py'
@@ -177,7 +189,7 @@ const Experiences = () => {
                 <div className={classes.text2} style={{ marginLeft: '40px' }}>
                   <div style={{ marginLeft: '-12px' }}>Databases</div>
                   <img
-                    src='/mysql.png'
+                    src={db1}
                     height='50px'
                     width='50px'
                     alt='db1'
@@ -185,7 +197,7 @@ const Experiences = () => {
                     style={{ backgroundColor: '#2e2e2e' }}
                   />
                   <img
-                    src='/postgre.png'
+                    src={db2}
                     height='50px'
                     width='50px'
                     alt='db2'
@@ -193,7 +205,7 @@ const Experiences = () => {
                     style={{ marginLeft: '-25px', backgroundColor: '#2e2e2e' }}
                   />
                   <img
-                    src='/MongoDB.png'
+                    src={db3}
                     height='50px'
                     width='50px'
                     alt='db3'
@@ -216,7 +228,7 @@ const Experiences = () => {
                 <br />
                 <div style={{ textAlign: 'start', marginLeft: '22px' }}>
                   <img
-                    src='/start.png'
+                    src={start4ups}
                     height='50px'
                     width='50px'
                     alt='start4ups'
@@ -232,7 +244,7 @@ const Experiences = () => {
                 <span className={classes.stepsmini}>Social Project</span>
                 <br />
                 <img
-                  src='/ecc.jpeg'
+                  src={ecc}
                   height='50px'
                   width='50px'
                   alt='ECC'

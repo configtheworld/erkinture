@@ -4,6 +4,9 @@ import WhoIam from './WhoIam';
 import Experiences from './Experiences';
 import Projects from './Projects';
 import CardCarousel from './CardCarousel';
+import start4ups from './styles/darklogo.png';
+import me from './styles/me.png';
+import github from './styles/githubpp.png';
 
 // styles
 import './styles/pulseball.css';
@@ -19,7 +22,7 @@ const MainPage = () => {
           <Link href='http://www.start4ups.com/'>
             <img
               className='imagehover'
-              src='/darklogo.png'
+              src={start4ups}
               height='90px'
               width='90px'
               alt='start4ups'
@@ -37,7 +40,7 @@ const MainPage = () => {
           <Link href='/'>
             <img
               className=''
-              src='/me.png'
+              src={me}
               height='100px'
               width='100px'
               alt='me'
@@ -54,7 +57,7 @@ const MainPage = () => {
           <Link href='https://github.com/configtheworld'>
             <img
               className='imagehover'
-              src='/githubpp.png'
+              src={github}
               height='90px'
               width='90px'
               alt='github'
