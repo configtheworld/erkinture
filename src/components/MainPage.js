@@ -7,7 +7,7 @@ import CardCarousel from './CardCarousel';
 import start4ups from './styles/darklogo.png';
 import me from './styles/me.png';
 import github from './styles/githubpp.png';
-
+import ups from './styles/ups.png';
 // styles
 import './styles/pulseball.css';
 import './styles/slide.css';
@@ -82,6 +82,70 @@ const MainPage = () => {
         <Experiences xs={6} />
         <Projects xs={4} />
         <CardCarousel />
+        <div className='socialmediabuttons'>
+          <a
+            href='https://www.linkedin.com/in/erkin-berk-t%C3%BCre-76ab60163/'
+            className='socialmediabutton'
+          >
+            <img
+              src='https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/201_Linkedin_logo_logos-512.png'
+              alt='linkedin'
+              height='30px'
+              width='30px'
+              style={{ opacity: '.6' }}
+              className='socialmediabuttonimage'
+            />
+          </a>
+          <a
+            href='https://github.com/configtheworld'
+            className='socialmediabutton'
+          >
+            <img
+              src='https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png'
+              alt='github'
+              height='30px'
+              width='30px'
+              style={{ opacity: '.6' }}
+              className='socialmediabuttonimage'
+            />
+          </a>
+          <a href='http://www.start4ups.com/' className='socialmediabutton'>
+            <img
+              src={ups}
+              alt='start4ups'
+              height='30px'
+              width='30px'
+              style={{ opacity: '.6' }}
+              className='socialmediabuttonimage'
+            />
+          </a>
+          <a
+            href='https://gitlab.com/users/configtheworld/'
+            className='socialmediabutton'
+          >
+            <img
+              src='https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/144_Gitlab_logo_logos-512.png'
+              alt='gitlab'
+              height='30px'
+              width='30px'
+              style={{ opacity: '.6' }}
+              className='socialmediabuttonimage'
+            />
+          </a>
+          <a
+            href='https://codepen.io/configtheworld'
+            className='socialmediabutton'
+          >
+            <img
+              src='https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Codepen-512.png'
+              alt='gitlab'
+              height='30px'
+              width='30px'
+              style={{ opacity: '.6' }}
+              className='socialmediabuttonimage'
+            />
+          </a>
+        </div>
       </div>
     </Fragment>
   );

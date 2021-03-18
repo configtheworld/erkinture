@@ -93,3 +93,16 @@ header .footer-wave {
   padding-bottom: 80px;
   width: 100%;
 }
+
+.socialmediabuttons{
+  margin-top: 75px;
+  width: 100%;
+  text-align: center;
+}
+.socialmediabutton{
+  margin:10px;
+}
+.socialmediabuttonimage:hover{
+  transform: scale(1.5);
+  transition: 0.5s ease;
+}
