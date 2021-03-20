@@ -133,6 +133,19 @@ const MainPage = () => {
             />
           </a>
           <a
+            href='https://stackoverflow.com/users/13969786/configtheworld'
+            className='socialmediabutton'
+          >
+            <img
+              src='https://www.flaticon.com/svg/vstatic/svg/2111/2111690.svg?token=exp=1616235381~hmac=e4221038aaae19c45b527315aee076c9'
+              alt='stackoverflow'
+              height='30px'
+              width='30px'
+              style={{ opacity: '.6' }}
+              className='socialmediabuttonimage'
+            />
+          </a>
+          <a
             href='https://codepen.io/configtheworld'
             className='socialmediabutton'
           >
