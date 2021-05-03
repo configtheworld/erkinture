@@ -33,11 +33,11 @@ const Desc = () => {
                   color: '#cdcdcd',
                 }}
               >
-                I do things like <br></br>{' '}
+                Also I am <br></br>{' '}
                 <span
                   className='txt-rotate'
                   data-period={1500}
-                  data-rotate='[ "Web Applications", "Full Stack Projects", "being entrepreneur"]'
+                  data-rotate='[ "a Software Engineer", "a Full Stack Developer", " an Entrepreneur","a Student and always will be"]'
                 />
                 <br></br>
               </h2>

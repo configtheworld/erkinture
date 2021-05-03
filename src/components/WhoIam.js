@@ -128,9 +128,8 @@ const WhoIam = () => {
                 <hr style={{ border: '1px solid #555' }}></hr>I had experience
                 on MERN (Mongo-MySQL, Express, React, Node) project based real
                 life products. Familiar about RESTful Routing, REST API.
-                Passionate about Javascript. Currently working on a Startup but
-                I am looking for a summer intern for new adventures and
-                experiences
+                Passionate about Javascript and Clean Code. Currently looking
+                for a new experiences.
               </h5>
             </Grid>
             <Grid

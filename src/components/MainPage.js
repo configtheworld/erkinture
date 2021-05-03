@@ -137,11 +137,11 @@ const MainPage = () => {
             className='socialmediabutton'
           >
             <img
-              src='https://www.flaticon.com/svg/vstatic/svg/2111/2111690.svg?token=exp=1616235381~hmac=e4221038aaae19c45b527315aee076c9'
+              src='https://aiconica.net/previews/stackoverflow-icon-997.png'
               alt='stackoverflow'
               height='30px'
               width='30px'
-              style={{ opacity: '.6' }}
+              style={{ opacity: '1' }}
               className='socialmediabuttonimage'
             />
           </a>
@@ -151,6 +151,19 @@ const MainPage = () => {
           >
             <img
               src='https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Codepen-512.png'
+              alt='gitlab'
+              height='30px'
+              width='30px'
+              style={{ opacity: '.6' }}
+              className='socialmediabuttonimage'
+            />
+          </a>
+          <a
+            href='https://www.hackerrank.com/erkinture'
+            className='socialmediabutton'
+          >
+            <img
+              src='https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/160_Hackerrank_logo_logos-512.png'
               alt='gitlab'
               height='30px'
               width='30px'
