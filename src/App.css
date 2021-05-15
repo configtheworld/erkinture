@@ -22,7 +22,7 @@ body {
   width: 100%;
   min-height: 100vh;
   /*background-image: linear-gradient(#343434, #161B22);*/
-  background-color: #343434;
+  background-color: #343434  !important;
   min-height: calc(100vh - var(--vh-offset, 0px));
   overflow-x: hidden;
   font-weight: 400;
@@ -106,3 +106,4 @@ header .footer-wave {
   transform: scale(1.5);
   transition: 0.5s ease;
 }
+

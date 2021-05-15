@@ -49,7 +49,7 @@ const Desc = () => {
                   marginTop: '50px',
                 }}
               >
-                <i class='fa fa-chevron-down' aria-hidden='true'></i>
+                <i className='fa fa-chevron-down' aria-hidden='true'></i>
               </div>
             </span>
           </div>

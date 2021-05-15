@@ -13,6 +13,7 @@ import './styles/pulseball.css';
 import './styles/slide.css';
 import Pulse from './Pulse';
 import Desc from './Desc';
+import Stats from './Stats';
 
 const MainPage = () => {
   return (
@@ -77,6 +78,7 @@ const MainPage = () => {
 
       <Desc />
       <Pulse />
+      <Stats />
       <div className='pset'>
         <WhoIam xs={12} />
         <Experiences xs={6} />
