@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/erkinture/static/css/main.3363cdb7.chunk.css",
-    "main.js": "/erkinture/static/js/main.c28dcd1d.chunk.js",
-    "main.js.map": "/erkinture/static/js/main.c28dcd1d.chunk.js.map",
-    "runtime-main.js": "/erkinture/static/js/runtime-main.dde65f60.js",
-    "runtime-main.js.map": "/erkinture/static/js/runtime-main.dde65f60.js.map",
-    "static/js/2.e76ea609.chunk.js": "/erkinture/static/js/2.e76ea609.chunk.js",
-    "static/js/2.e76ea609.chunk.js.map": "/erkinture/static/js/2.e76ea609.chunk.js.map",
-    "static/js/3.52c8bca2.chunk.js": "/erkinture/static/js/3.52c8bca2.chunk.js",
-    "static/js/3.52c8bca2.chunk.js.map": "/erkinture/static/js/3.52c8bca2.chunk.js.map",
+    "main.css": "/erkinture/static/css/main.4d5e595c.chunk.css",
+    "main.js": "/erkinture/static/js/main.08745bf8.chunk.js",
+    "main.js.map": "/erkinture/static/js/main.08745bf8.chunk.js.map",
+    "runtime-main.js": "/erkinture/static/js/runtime-main.63405f62.js",
+    "runtime-main.js.map": "/erkinture/static/js/runtime-main.63405f62.js.map",
+    "static/css/2.98e7ac70.chunk.css": "/erkinture/static/css/2.98e7ac70.chunk.css",
+    "static/js/2.6407d763.chunk.js": "/erkinture/static/js/2.6407d763.chunk.js",
+    "static/js/2.6407d763.chunk.js.map": "/erkinture/static/js/2.6407d763.chunk.js.map",
+    "static/js/3.bedebd83.chunk.js": "/erkinture/static/js/3.bedebd83.chunk.js",
+    "static/js/3.bedebd83.chunk.js.map": "/erkinture/static/js/3.bedebd83.chunk.js.map",
     "index.html": "/erkinture/index.html",
-    "static/css/main.3363cdb7.chunk.css.map": "/erkinture/static/css/main.3363cdb7.chunk.css.map",
-    "static/js/2.e76ea609.chunk.js.LICENSE.txt": "/erkinture/static/js/2.e76ea609.chunk.js.LICENSE.txt",
+    "static/css/2.98e7ac70.chunk.css.map": "/erkinture/static/css/2.98e7ac70.chunk.css.map",
+    "static/css/main.4d5e595c.chunk.css.map": "/erkinture/static/css/main.4d5e595c.chunk.css.map",
+    "static/js/2.6407d763.chunk.js.LICENSE.txt": "/erkinture/static/js/2.6407d763.chunk.js.LICENSE.txt",
     "static/media/MongoDB.ef7f797c.png": "/erkinture/static/media/MongoDB.ef7f797c.png",
     "static/media/cpp.4d06501c.png": "/erkinture/static/media/cpp.4d06501c.png",
     "static/media/darklogo.901faef9.png": "/erkinture/static/media/darklogo.901faef9.png",
@@ -31,9 +33,10 @@
     "static/media/ybt.c501466b.png": "/erkinture/static/media/ybt.c501466b.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dde65f60.js",
-    "static/js/2.e76ea609.chunk.js",
-    "static/css/main.3363cdb7.chunk.css",
-    "static/js/main.c28dcd1d.chunk.js"
+    "static/js/runtime-main.63405f62.js",
+    "static/css/2.98e7ac70.chunk.css",
+    "static/js/2.6407d763.chunk.js",
+    "static/css/main.4d5e595c.chunk.css",
+    "static/js/main.08745bf8.chunk.js"
   ]
 }
