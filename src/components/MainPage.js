@@ -38,7 +38,7 @@ const MainPage = () => {
               }}
             />
           </Link>
-          <Link href='/'>
+          <Link to='/'>
             <img
               className=''
               src={me}
