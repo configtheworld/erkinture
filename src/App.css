@@ -18,6 +18,20 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
+
+/* horizonal scrollbar*/
+::-webkit-scrollbar{
+  height: 15px;
+  width: 5px;
+  background: #2b2b2b;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:horizontal{
+  background: #7a7a7a;
+  border-radius: 10px;
+  height: 10px;
+}
+
 body {
   width: 100%;
   min-height: 100vh;

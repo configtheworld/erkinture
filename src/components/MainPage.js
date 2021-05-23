@@ -14,6 +14,7 @@ import './styles/slide.css';
 import Pulse from './Pulse';
 import Desc from './Desc';
 import Stats from './Stats';
+import stackoverflow from './styles/2111640.png';
 
 const MainPage = () => {
   return (
@@ -139,11 +140,11 @@ const MainPage = () => {
             className='socialmediabutton'
           >
             <img
-              src='https://aiconica.net/previews/stackoverflow-icon-997.png'
+              src={stackoverflow}
               alt='stackoverflow'
               height='30px'
               width='30px'
-              style={{ opacity: '1' }}
+              style={{ opacity: '0.6', marginBottom: '5px' }}
               className='socialmediabuttonimage'
             />
           </a>
