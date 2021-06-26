@@ -263,7 +263,7 @@ const Experiences = () => {
               justify='space-around'
               alignItems='center'
             >
-              <Steps progressDot direction='vertical' current={3}>
+              <Steps progressDot direction='vertical' current={4}>
                 <Step
                   title={
                     <div className={classes.steps}>Start4ups - Founder</div>
@@ -278,7 +278,38 @@ const Experiences = () => {
                   title={<div className={classes.steps}>Solwider.</div>}
                   description={
                     <div className={classes.stepsmini}>
-                      Full Stack Web Developer - Jan 2021 - Present
+                      Full Stack Web Developer - Jan 2021 - June 2021
+                    </div>
+                  }
+                />
+                <Step
+                  title={
+                    <div className={classes.steps}>Kemi - Full Stack Web Developer</div>
+                  }
+                  description={
+                    <div className={classes.stepsmini}>
+                      Istanbul, Turkey (remote) - June 2021 - Present
+                    </div>
+                  }
+                />
+                <Step
+                  title={
+                    <div className={classes.steps}>SolaVieve - Full Stack Web Developer Intern</div>
+                  }
+                  description={
+                    <div className={classes.stepsmini}>
+                      Heidelberg, Germany (remote) - June 2021 - Present
+                    </div>
+                  }
+                />
+                
+                <Step
+                  title={
+                    <div className={classes.steps}>Jotform - Web Development Intern</div>
+                  }
+                  description={
+                    <div className={classes.stepsmini}>
+                      Ankara, Turkey - July 2021 - September 2021
                     </div>
                   }
                 />

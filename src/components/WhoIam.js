@@ -69,7 +69,7 @@ const WhoIam = () => {
               justify='space-around'
               alignItems='center'
             >
-              <Steps progressDot direction='vertical' current={3}>
+              <Steps progressDot direction='vertical' current={4}>
                 <Step
                   title={
                     <div className={classes.steps}>
