@@ -52,24 +52,24 @@ const useStyles = makeStyles({
 const WhoIam = () => {
   const classes = useStyles();
   return (
-    <div className='will-fadeIn'>
+    <div className="will-fadeIn">
       <Card className={classes.root}>
         <CardContent className={classes.part}>
           <Typography className={classes.title}>About me</Typography>
           <Grid
             container
-            direction='row'
-            justify='space-around'
-            alignItems='center'
+            direction="row"
+            justifyContent="space-around"
+            alignItems="center"
           >
             <Grid
               container
-              direction='row'
+              direction="row"
               sm={4}
-              justify='space-around'
-              alignItems='center'
+              justifyContent="space-around"
+              alignItems="center"
             >
-              <Steps progressDot direction='vertical' current={4}>
+              <Steps progressDot direction="vertical" current={4}>
                 <Step
                   title={
                     <div className={classes.steps}>
@@ -114,10 +114,10 @@ const WhoIam = () => {
             </Grid>
             <Grid
               container
-              direction='row'
+              direction="row"
               sm={4}
-              justify='space-around'
-              alignItems='center'
+              justifyContent="space-around"
+              alignItems="center"
             >
               <h5 className={classes.text}>
                 Currently junior (3/4) student in Computer Engineering
@@ -134,24 +134,24 @@ const WhoIam = () => {
             </Grid>
             <Grid
               container
-              direction='row'
+              direction="row"
               sm={4}
-              justify='space-around'
-              alignItems='center'
+              justifyContent="space-around"
+              alignItems="center"
             >
               <h5 className={classes.text}>
                 <Chip
                   icon={
                     <i
-                      className='fa fa-trophy'
+                      className="fa fa-trophy"
                       style={{ fontSize: '0.8rem', color: '#61DAFB' }}
-                      aria-hidden='true'
+                      aria-hidden="true"
                     ></i>
                   }
                   label={<div className={classes.stepsmini}>Persistence</div>}
                   clickable
-                  color='primary'
-                  variant='outlined'
+                  color="primary"
+                  variant="outlined"
                 />
                 <br />I believe persistence and world is a playground
                 <br />
@@ -159,15 +159,15 @@ const WhoIam = () => {
                 <Chip
                   icon={
                     <i
-                      className='fa fa-heartbeat'
+                      className="fa fa-heartbeat"
                       style={{ fontSize: '0.8rem', color: '#61DAFB' }}
-                      aria-hidden='true'
+                      aria-hidden="true"
                     ></i>
                   }
                   label={<div className={classes.stepsmini}>Courage I had</div>}
                   clickable
-                  color='primary'
-                  variant='outlined'
+                  color="primary"
+                  variant="outlined"
                 />
                 <br /> To take a sinking ship and try to make it float. Other
                 words stress management
@@ -176,15 +176,15 @@ const WhoIam = () => {
                 <Chip
                   icon={
                     <i
-                      className='fa fa-heartbeat'
+                      className="fa fa-heartbeat"
                       style={{ fontSize: '0.8rem', color: '#61DAFB' }}
-                      aria-hidden='true'
+                      aria-hidden="true"
                     ></i>
                   }
                   label={<div className={classes.stepsmini}>Entrepreneur</div>}
                   clickable
-                  color='primary'
-                  variant='outlined'
+                  color="primary"
+                  variant="outlined"
                 />
                 <br /> I knock every single door
               </h5>

@@ -14,19 +14,19 @@ body::-webkit-scrollbar-track {
   background: var(--scrollbarBG);
 }
 body::-webkit-scrollbar-thumb {
-  background-color: var(--thumbBG) ;
+  background-color: var(--thumbBG);
   border-radius: 6px;
   border: 3px solid var(--scrollbarBG);
 }
 
 /* horizonal scrollbar*/
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   height: 15px;
   width: 5px;
   background: #2b2b2b;
   border-radius: 10px;
 }
-::-webkit-scrollbar-thumb:horizontal{
+::-webkit-scrollbar-thumb:horizontal {
   background: #7a7a7a;
   border-radius: 10px;
   height: 10px;
@@ -36,7 +36,7 @@ body {
   width: 100%;
   min-height: 100vh;
   /*background-image: linear-gradient(#343434, #161B22);*/
-  background-color: #343434  !important;
+  background-color: #373737 !important;
   min-height: calc(100vh - var(--vh-offset, 0px));
   overflow-x: hidden;
   font-weight: 400;
@@ -47,15 +47,14 @@ body {
   letter-spacing: 0.025em;
 }
 
-.imagehover:hover{
+.imagehover:hover {
   transform: translatey(-7%);
   transition: ease 0.3s;
 }
 
-
 .header-design {
-  background-color: #7A7A7A;
-  background-image: linear-gradient(326deg, #7A7A7A 0%, #7a7a7a 74%);
+  background-color: #7a7a7a;
+  background-image: linear-gradient(326deg, #7a7a7a 0%, #7a7a7a 74%);
   height: 120px;
   text-align: center;
 }
@@ -76,10 +75,9 @@ body {
   /***
     box-shadow: 0 0 65px rgba(0,0,0,.07) inset, 0 0 35px rgba(0,0,0,.05) inset;**/
 }
-.sha{
-  text-shadow: 0px 4px 3px rgba(0,0,0,0.1),
-                 0px 4px 3px rgba(0,0,0,0.1),
-                  0px 4px 3px rgba(0,0,0,0.1);
+.sha {
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1), 0px 4px 3px rgba(0, 0, 0, 0.1),
+    0px 4px 3px rgba(0, 0, 0, 0.1);
 }
 header .footer-wave {
   max-width: 102%;
@@ -88,8 +86,7 @@ header .footer-wave {
   left: 0;
   z-index: 1;
   bottom: -67px;
-  background: url("components/hero-wave.png")
-    repeat-x;
+  background: url('components/hero-wave.png') repeat-x;
   animation: wave 10s cubic-bezier(0.44, 0.66, 0.67, 0.37) infinite;
 }
 
@@ -108,16 +105,98 @@ header .footer-wave {
   width: 100%;
 }
 
-.socialmediabuttons{
+.socialmediabuttons {
   margin-top: 75px;
   width: 100%;
   text-align: center;
 }
-.socialmediabutton{
-  margin:10px;
+.socialmediabutton {
+  margin: 10px;
 }
-.socialmediabuttonimage:hover{
+.socialmediabuttonimage:hover {
   transform: scale(1.5);
   transition: 0.5s ease;
 }
 
+.example_spin_antd {
+  margin: 20px 0;
+  margin-bottom: 20px;
+  padding: 30px 50px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}
+
+.ant-notification-notice {
+  background-color: #343434 !important;
+  color: #f0f0f0;
+}
+
+.ant-notification-notice-message {
+  color: #60d9fa !important;
+  font-size: 24px !important;
+}
+
+.contact_form_form {
+  text-align: center;
+  display: grid;
+}
+.contact_form_input {
+  border-radius: 5px;
+  height: 40px;
+  width: 270px;
+  margin: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 2px solid #60d9fa;
+  background-color: #555;
+  color: #fff;
+}
+
+.contact_form_textarea {
+  border-radius: 5px;
+  width: auto;
+  margin: 10px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 2px solid #60d9fa;
+  background-color: #555;
+  color: #fff;
+}
+
+.contact_form_submit_btn {
+  border-radius: 5px;
+  height: 50px;
+  margin: 10px;
+  border: 0;
+  font-size: 24px;
+  background-color: #313131;
+  color: #60d9fa;
+  cursor: pointer;
+}
+
+.contact_form_submit_btn:hover {
+  background-color: #60d9fa;
+  color: #313131;
+  transition: 1s;
+}
+.ant-modal-body {
+  background-color: #343434 !important;
+  color: #f0f0f0;
+}
+.ant-modal-confirm-title {
+  color: #60d9fa !important;
+}
+.ant-modal-confirm-confirm .ant-modal-confirm-body > .anticon {
+  color: #fff !important;
+}
+.ant-modal-body .ant-btn {
+  background-color: #555 !important;
+  color: #fff;
+  border: 0;
+}
+
+.ant-message-notice-content {
+  background-color: #555 !important;
+  color: #60d9fa;
+}

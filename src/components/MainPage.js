@@ -4,7 +4,7 @@ import WhoIam from './WhoIam';
 import Experiences from './Experiences';
 import Projects from './Projects';
 import CardCarousel from './CardCarousel';
-import start4ups from './styles/darklogo.png';
+import configtheworldblog from './styles/configtheworldblog.png';
 import me from './styles/me.png';
 import github from './styles/githubpp.png';
 import ups from './styles/ups.png';
@@ -15,16 +15,17 @@ import Pulse from './Pulse';
 import Desc from './Desc';
 import Stats from './Stats';
 import stackoverflow from './styles/2111640.png';
+import ContactForm from './ContactForm';
 
 const MainPage = () => {
   return (
     <Fragment>
       <header className='header-design'>
         <div className='listar-map-button'>
-          <Link href='http://www.start4ups.com/'>
+          <Link href='http://configtheworld.herokuapp.com/'>
             <img
               className='imagehover'
-              src={start4ups}
+              src={configtheworldblog}
               height='90px'
               width='90px'
               alt='start4ups'
@@ -32,9 +33,9 @@ const MainPage = () => {
                 borderRadius: '50%',
                 position: 'relative',
                 marginTop: '100px',
-                boxShadow: ' 0 0 0 3px #2667ff',
+                boxShadow: ' 0 0 0 3px #8c52ff',
                 zIndex: '1',
-                marginRight: '-30px',
+                marginRight: '-8px',
                 backgroundColor: '#313131',
               }}
             />
@@ -67,9 +68,9 @@ const MainPage = () => {
                 borderRadius: '50%',
                 position: 'relative',
                 marginTop: '100px',
-                boxShadow: ' 0 0 0 3px #7b2cbf',
+                boxShadow: ' 0 0 0 3px #30a14e',
                 zIndex: '1',
-                marginLeft: '-30px',
+                marginLeft: '-8px',
               }}
             />
           </Link>
@@ -84,6 +85,7 @@ const MainPage = () => {
         <WhoIam xs={12} />
         <Experiences xs={6} />
         <Projects xs={4} />
+        <ContactForm xs={12} />
         <CardCarousel />
         <div className='socialmediabuttons'>
           <a

@@ -33,7 +33,7 @@ const Desc = () => {
                   color: '#cdcdcd',
                 }}
               >
-                Also I am <br></br>{' '}
+                I am <br></br>{' '}
                 <span
                   className='txt-rotate'
                   data-period={1500}

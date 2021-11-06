@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-import GridList from '@material-ui/core/GridList';
 import CardMedia from '@material-ui/core/CardMedia';
 import image1 from './styles/pro1.png';
 import image2 from './styles/simit3.png';
@@ -12,6 +11,8 @@ import image4 from './styles/todo.png';
 import image5 from './styles/ybt.png';
 import image6 from './styles/mars.png';
 import './styles/projects.css';
+import { ImageList } from '@material-ui/core';
+import { Spin } from 'antd';
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
@@ -90,22 +91,19 @@ const data = [
   {
     img: image1,
     title: 'Configtheworld',
-    desc:
-      'This is the platform which you can find news, articles and tutorials about technology and lifestyle.',
+    desc: 'This is the platform which you can find news, articles and tutorials about technology and lifestyle.',
     link: 'https://configtheworld.herokuapp.com/',
   },
   {
     img: image2,
     title: 'Simitlock',
-    desc:
-      'Save your password with dual AES encryption 🔐, Generate strong passwords with various ways 💪',
+    desc: 'Save your password with dual AES encryption 🔐, Generate strong passwords with various ways 💪',
     link: 'https://simitlock.herokuapp.com/',
   },
   {
     img: image3,
     title: 'Start4ups',
-    desc:
-      'Start4ups bir girişim geliştirme merkezidir. Yazılım, teknoloji alanlarında startuplar geliştirmekteyiz.',
+    desc: 'Start4ups bir girişim geliştirme merkezidir. Yazılım, teknoloji alanlarında startuplar geliştirmekteyiz.',
     link: 'http://www.start4ups.com/',
   },
   {
@@ -117,8 +115,7 @@ const data = [
   {
     img: '',
     title: 'DataScience Project',
-    desc:
-      'Observations Classifications and Multiple Prediction for Heart Failure Dataset',
+    desc: 'Observations Classifications and Multiple Prediction for Heart Failure Dataset',
     link: '#',
   },
   {
@@ -131,12 +128,10 @@ const data = [
     img: 'https://seeklogo.com/images/P/php-logo-ADE513E748-seeklogo.com.png',
     title: 'Student Information System',
     desc: 'Secure SIS with Postgrsql and PHP',
-    link:
-      'https://github.com/configtheworld/Student-Information-System-Php-Postgresql',
+    link: 'https://github.com/configtheworld/Student-Information-System-Php-Postgresql',
   },
   {
-    img:
-      'http://www.serdaronder.com/wp-content/uploads/2020/03/microsoft-csharp-dotnet.jpg',
+    img: 'http://www.serdaronder.com/wp-content/uploads/2020/03/microsoft-csharp-dotnet.jpg',
     title: 'HTTU',
     desc: 'Hasta Tespit Takip Uygulaması',
     link: 'https://github.com/configtheworld/ProjeHTTU',
@@ -152,39 +147,45 @@ const data = [
 const Projects = () => {
   const classes = useStyles();
   return (
-    <div className='will-fadeIn vertical'>
+    <div className="will-fadeIn vertical">
       <Card className={classes.root}>
         <CardContent className={classes.part}>
           <Typography className={classes.title}>Personal Projects</Typography>
 
           <div className={classes.rootCard}>
-            <GridList className={classes.gridList} cols={2.5}>
-              {data.map((project) => (
-                <Card key={project.img} className={classes.root3}>
-                  <div className={classes.details}>
-                    <CardContent className={classes.content}>
-                      <Typography
-                        className={classes.stepsmini}
-                        component='h5'
-                        variant='h5'
-                      >
-                        {project.title}
-                      </Typography>
-                      <hr style={{ border: '1px solid #555' }}></hr>
-                      <Typography variant='subtitle1' color='textSecondary'>
-                        <div className={classes.text2}>{project.desc}</div>
-                      </Typography>
-                      <a href={project.link}>Go to {project.title}📍</a>
-                    </CardContent>
-                  </div>
-                  <CardMedia
-                    className={classes.cover}
-                    image={project.img}
-                    title='Live from space album cover'
-                  />
-                </Card>
-              ))}
-            </GridList>
+            {data ? (
+              <ImageList className={classes.gridList} cols={2.5}>
+                {data.map((project) => (
+                  <Card key={project.img} className={classes.root3}>
+                    <div className={classes.details}>
+                      <CardContent className={classes.content}>
+                        <Typography
+                          className={classes.stepsmini}
+                          component="h5"
+                          variant="h5"
+                        >
+                          {project.title}
+                        </Typography>
+                        <hr style={{ border: '1px solid #555' }}></hr>
+                        <Typography variant="subtitle1" color="textSecondary">
+                          <div className={classes.text2}>{project.desc}</div>
+                        </Typography>
+                        <a href={project.link}>Go to {project.title}📍</a>
+                      </CardContent>
+                    </div>
+                    <CardMedia
+                      className={classes.cover}
+                      image={project.img}
+                      title="Live from space album cover"
+                    />
+                  </Card>
+                ))}
+              </ImageList>
+            ) : (
+              <div className="example_spin_antd">
+                <Spin />
+              </div>
+            )}
           </div>
         </CardContent>
       </Card>

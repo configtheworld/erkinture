@@ -72,46 +72,46 @@ const useStyles = makeStyles({
 const Experiences = () => {
   const classes = useStyles();
   return (
-    <div className='will-fadeIn'>
+    <div className="will-fadeIn">
       <Card className={classes.root}>
         <CardContent className={classes.part}>
           <Typography className={classes.title}>Experiences</Typography>
           <Grid
             container
-            direction='row'
-            justify='space-around'
-            alignItems='center'
+            direction="row"
+            justifyContent="space-around"
+            alignItems="center"
           >
             <Grid
               container
-              direction='row'
+              direction="row"
               sm={2}
-              justify='space-around'
-              alignItems='center'
+              justifyContent="space-around"
+              alignItems="center"
             >
               <div className={classes.text}>Recently working on</div>
               <Grid
                 container
-                direction='column'
-                justify='center'
-                alignItems='flex-start'
+                direction="column"
+                justifyContent="center"
+                alignItems="flex-start"
               >
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
                     src={js}
-                    height='50px'
-                    width='50px'
+                    height="50px"
+                    width="50px"
                     className={classes.circlebutton}
-                    alt='js'
+                    alt="js"
                   />
                   Javascript{' '}
                 </div>
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
                     src={node}
-                    height='50px'
-                    width='50px'
-                    alt='nodejs'
+                    height="50px"
+                    width="50px"
+                    alt="nodejs"
                     className={classes.circlebutton}
                     style={{ backgroundColor: '#7a7a7a', paddingTop: '6px' }}
                   />
@@ -120,9 +120,9 @@ const Experiences = () => {
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
                     src={react}
-                    height='50px'
-                    width='50px'
-                    alt='reactjs'
+                    height="50px"
+                    width="50px"
+                    alt="reactjs"
                     className={classes.circlebutton}
                   />
                   Reactjs{' '}
@@ -130,9 +130,9 @@ const Experiences = () => {
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
                     src={express}
-                    height='50px'
-                    width='50px'
-                    alt='expressjs'
+                    height="50px"
+                    width="50px"
+                    alt="expressjs"
                     className={classes.circlebutton}
                   />
                   Expressjs{' '}
@@ -141,24 +141,24 @@ const Experiences = () => {
             </Grid>
             <Grid
               container
-              direction='row'
+              direction="row"
               sm={2}
-              justify='space-around'
-              alignItems='center'
+              justifyContent="space-around"
+              alignItems="center"
             >
               <div className={classes.text}>Languages</div>
               <Grid
                 container
-                direction='column'
-                justify='center'
-                alignItems='flex-start'
+                direction="column"
+                justifyContent="center"
+                alignItems="flex-start"
               >
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
                     src={java}
-                    height='40px'
-                    width='40px'
-                    alt='java'
+                    height="40px"
+                    width="40px"
+                    alt="java"
                     className={classes.circlebutton}
                     style={{ backgroundColor: '#2e2e2e' }}
                   />
@@ -167,9 +167,9 @@ const Experiences = () => {
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
                     src={cpp}
-                    height='40px'
-                    width='40px'
-                    alt='cpp'
+                    height="40px"
+                    width="40px"
+                    alt="cpp"
                     className={classes.circlebutton}
                     style={{ backgroundColor: '#2e2e2e', padding: '2px' }}
                   />
@@ -178,9 +178,9 @@ const Experiences = () => {
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
                     src={py}
-                    height='40px'
-                    width='40px'
-                    alt='py'
+                    height="40px"
+                    width="40px"
+                    alt="py"
                     className={classes.circlebutton}
                     style={{ backgroundColor: '#2e2e2e', padding: '2px' }}
                   />
@@ -190,25 +190,25 @@ const Experiences = () => {
                   <div style={{ marginLeft: '-12px' }}>Databases</div>
                   <img
                     src={db1}
-                    height='50px'
-                    width='50px'
-                    alt='db1'
+                    height="50px"
+                    width="50px"
+                    alt="db1"
                     className={classes.circlebutton}
                     style={{ backgroundColor: '#2e2e2e' }}
                   />
                   <img
                     src={db2}
-                    height='50px'
-                    width='50px'
-                    alt='db2'
+                    height="50px"
+                    width="50px"
+                    alt="db2"
                     className={classes.circlebutton}
                     style={{ marginLeft: '-25px', backgroundColor: '#2e2e2e' }}
                   />
                   <img
                     src={db3}
-                    height='50px'
-                    width='50px'
-                    alt='db3'
+                    height="50px"
+                    width="50px"
+                    alt="db3"
                     className={classes.circlebutton}
                     style={{ marginLeft: '-25px', backgroundColor: '#2e2e2e' }}
                   />
@@ -217,10 +217,10 @@ const Experiences = () => {
             </Grid>
             <Grid
               container
-              direction='row'
+              direction="row"
               sm={4}
-              justify='space-around'
-              alignItems='center'
+              justifyContent="space-around"
+              alignItems="center"
             >
               <h5 className={classes.text}>
                 <hr style={{ border: '1px solid #555' }}></hr>
@@ -229,9 +229,9 @@ const Experiences = () => {
                 <div style={{ textAlign: 'start', marginLeft: '22px' }}>
                   <img
                     src={start4ups}
-                    height='50px'
-                    width='50px'
-                    alt='start4ups'
+                    height="50px"
+                    width="50px"
+                    alt="start4ups"
                     className={classes.circlebutton}
                     style={{ backgroundColor: '#2e2e2e' }}
                   />{' '}
@@ -245,9 +245,9 @@ const Experiences = () => {
                 <br />
                 <img
                   src={ecc}
-                  height='50px'
-                  width='50px'
-                  alt='ECC'
+                  height="50px"
+                  width="50px"
+                  alt="ECC"
                   className={classes.circlebutton}
                   style={{ backgroundColor: '#2e2e2e' }}
                 />{' '}
@@ -258,58 +258,68 @@ const Experiences = () => {
             </Grid>
             <Grid
               container
-              direction='row'
+              direction="row"
               sm={4}
-              justify='space-around'
-              alignItems='center'
+              justifyContent="space-around"
+              alignItems="center"
             >
-              <Steps progressDot direction='vertical' current={4}>
+              <Steps progressDot direction="vertical" current={4}>
                 <Step
                   title={
                     <div className={classes.steps}>Start4ups - Founder</div>
                   }
                   description={
                     <div className={classes.stepsmini}>
-                      Startup Bootster Platform - May 2019 - Present
-                    </div>
-                  }
-                />
-                <Step
-                  title={<div className={classes.steps}>Solwider.</div>}
-                  description={
-                    <div className={classes.stepsmini}>
-                      Full Stack Web Developer - Jan 2021 - June 2021
+                      Startup Bootster Platform - since May 2019 - Side Project
                     </div>
                   }
                 />
                 <Step
                   title={
-                    <div className={classes.steps}>Kemi - Full Stack Web Developer</div>
+                    <div className={classes.steps}>
+                      Solwider. - Frontend Web Developer
+                    </div>
                   }
                   description={
                     <div className={classes.stepsmini}>
-                      Istanbul, Turkey (remote) - June 2021 - Present
+                      Ankara, Turkey - Jan 2021 - June 2021
                     </div>
                   }
                 />
                 <Step
                   title={
-                    <div className={classes.steps}>SolaVieve - Full Stack Web Developer Intern</div>
+                    <div className={classes.steps}>
+                      SolaVieve - Full Stack Web Developer Intern
+                    </div>
                   }
                   description={
                     <div className={classes.stepsmini}>
-                      Heidelberg, Germany (remote) - June 2021 - Present
+                      Heidelberg, Germany (remote) - June 2021 - September 2021
                     </div>
                   }
                 />
-                
+
                 <Step
                   title={
-                    <div className={classes.steps}>Jotform - Web Development Intern</div>
+                    <div className={classes.steps}>
+                      Jotform - Web Development Intern
+                    </div>
                   }
                   description={
                     <div className={classes.stepsmini}>
                       Ankara, Turkey - July 2021 - September 2021
+                    </div>
+                  }
+                />
+                <Step
+                  title={
+                    <div className={classes.steps}>
+                      Integrio - Full Stack Web Developer
+                    </div>
+                  }
+                  description={
+                    <div className={classes.stepsmini}>
+                      Istanbul, Turkey - June 2021 - Present
                     </div>
                   }
                 />
