@@ -68,6 +68,7 @@ const ContactForm = () => {
       },
       onCancel() {
         // do nothing
+        message.info('Ok, whenever you want :)');
       },
     });
   }
@@ -102,17 +103,19 @@ const ContactForm = () => {
                       onChange={(e) =>
                         setform({ ...form, title: e.target.value })
                       }
+                      required
                     />
 
                     <input
                       className="contact_form_input"
                       name="user_mail"
-                      type="mail"
+                      type="email"
                       placeholder="Your Contact E-mail"
                       value={form.user_mail}
                       onChange={(e) =>
                         setform({ ...form, user_mail: e.target.value })
                       }
+                      required
                     />
                   </div>
                 </Row>
