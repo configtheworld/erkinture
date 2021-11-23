@@ -10,6 +10,8 @@ import image3 from './styles/start.png';
 import image4 from './styles/todo.png';
 import image5 from './styles/ybt.png';
 import image6 from './styles/mars.png';
+import github from './styles/github.png';
+
 import './styles/projects.css';
 import { ImageList } from '@material-ui/core';
 import { Spin } from 'antd';
@@ -141,6 +143,12 @@ const data = [
     title: 'Mars Real Estate',
     desc: 'C console app for mars lands',
     link: 'https://github.com/configtheworld/mars',
+  },
+  {
+    img: github,
+    title: 'More',
+    desc: 'More Projects in My Github',
+    link: 'https://github.com/configtheworld/',
   },
 ];
 

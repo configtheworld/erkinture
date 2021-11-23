@@ -311,18 +311,6 @@ const Experiences = () => {
                     </div>
                   }
                 />
-                <Step
-                  title={
-                    <div className={classes.steps}>
-                      Integrio - Full Stack Web Developer
-                    </div>
-                  }
-                  description={
-                    <div className={classes.stepsmini}>
-                      Istanbul, Turkey - June 2021 - Present
-                    </div>
-                  }
-                />
               </Steps>
             </Grid>
           </Grid>
