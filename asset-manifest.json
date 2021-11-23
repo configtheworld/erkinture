@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/erkinture/static/css/main.2d7cc946.chunk.css",
-    "main.js": "/erkinture/static/js/main.5724c2a5.chunk.js",
-    "main.js.map": "/erkinture/static/js/main.5724c2a5.chunk.js.map",
+    "main.js": "/erkinture/static/js/main.c711e3b7.chunk.js",
+    "main.js.map": "/erkinture/static/js/main.c711e3b7.chunk.js.map",
     "runtime-main.js": "/erkinture/static/js/runtime-main.20e56416.js",
     "runtime-main.js.map": "/erkinture/static/js/runtime-main.20e56416.js.map",
     "static/css/2.a95be28f.chunk.css": "/erkinture/static/css/2.a95be28f.chunk.css",
@@ -20,6 +20,7 @@
     "static/media/cpp.4d06501c.png": "/erkinture/static/media/cpp.4d06501c.png",
     "static/media/ecc.1b8b8bb9.jpeg": "/erkinture/static/media/ecc.1b8b8bb9.jpeg",
     "static/media/express.cca64e0f.png": "/erkinture/static/media/express.cca64e0f.png",
+    "static/media/github.363cb5ed.png": "/erkinture/static/media/github.363cb5ed.png",
     "static/media/java.fdabd4e1.png": "/erkinture/static/media/java.fdabd4e1.png",
     "static/media/mars.9ce1c097.png": "/erkinture/static/media/mars.9ce1c097.png",
     "static/media/me.094273c8.png": "/erkinture/static/media/me.094273c8.png",
@@ -38,6 +39,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.069f43e4.chunk.js",
     "static/css/main.2d7cc946.chunk.css",
-    "static/js/main.5724c2a5.chunk.js"
+    "static/js/main.c711e3b7.chunk.js"
   ]
 }
