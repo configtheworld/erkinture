@@ -11,6 +11,8 @@ import image4 from './styles/todo.png';
 import image5 from './styles/ybt.png';
 import image6 from './styles/mars.png';
 import github from './styles/github.png';
+import npm from './styles/npm.png';
+import crypto from './styles/crypto.png';
 
 import './styles/projects.css';
 import { ImageList } from '@material-ui/core';
@@ -91,6 +93,19 @@ const useStyles = makeStyles({
 
 const data = [
   {
+    img: crypto,
+    title: 'unreal-crypto-wallet-api',
+    desc: 'This is Public API interface for Crypto Currencies and Fake Wallet Account for Tracking The Stock Market.',
+    link: 'https://unreal-crypto-wallet-api.herokuapp.com/',
+  },
+
+  {
+    img: npm,
+    title: 'Indexed-object-to-array',
+    desc: 'Which is npm package for converting indexed keys objects into an array of objects. ',
+    link: 'https://www.npmjs.com/package/indexed-object-to-array',
+  },
+  {
     img: image1,
     title: 'Configtheworld',
     desc: 'This is the platform which you can find news, articles and tutorials about technology and lifestyle.',
@@ -101,12 +116,6 @@ const data = [
     title: 'Simitlock',
     desc: 'Save your password with dual AES encryption 🔐, Generate strong passwords with various ways 💪',
     link: 'https://simitlock.herokuapp.com/',
-  },
-  {
-    img: image3,
-    title: 'Start4ups',
-    desc: 'Start4ups bir girişim geliştirme merkezidir. Yazılım, teknoloji alanlarında startuplar geliştirmekteyiz.',
-    link: 'http://www.start4ups.com/',
   },
   {
     img: image4,

@@ -12,20 +12,7 @@ const cardItems = [
     id: 2,
     author: 'Vural Mert Dilaver',
     title: 'Chemical Engineer',
-    copy:
-      "One of the best team members I've ever had. I hope we can work together in the future!",
-  },
-  {
-    id: 3,
-    author: 'Charoun Kara Tsompan Impram',
-    title: 'Computer Engineer',
-    copy: 'It was nice to team up with you.',
-  },
-  {
-    id: 4,
-    author: 'Can Burak Taş',
-    title: 'Ybt Parking',
-    copy: 'Liderlik ve çalışma hevesin hiç bozulmadan böyle devam etsin',
+    copy: "One of the best team members I've ever had. I hope we can work together in the future!",
   },
 ];
 
@@ -77,8 +64,8 @@ const CardCarousel = () => {
   }, [handleCardTransition, indexes]);
 
   return (
-    <div className='container'>
-      <ul className='card-carousel'>
+    <div className="container">
+      <ul className="card-carousel">
         {cardItems.map((card, index) => (
           <li
             key={card.id}

@@ -92,24 +92,6 @@ const WhoIam = () => {
                     </div>
                   }
                 />
-                <Step
-                  title={
-                    <div className={classes.steps}>Web Developer Bootcamp</div>
-                  }
-                  description={
-                    <div className={classes.stepsmini}>
-                      Self-taught - June 2020 – August 2020
-                    </div>
-                  }
-                />
-                <Step
-                  title={<div className={classes.steps}>MERN Bootcamp</div>}
-                  description={
-                    <div className={classes.stepsmini}>
-                      Self-taught - August 2020 – November 2020
-                    </div>
-                  }
-                />
               </Steps>
             </Grid>
             <Grid
@@ -120,6 +102,7 @@ const WhoIam = () => {
               alignItems="center"
             >
               <h5 className={classes.text}>
+                {/**TODO: */}
                 Currently junior (3/4) student in Computer Engineering
                 bachelor's degree program at Gazi University Faculty of
                 Engineering. Willing to improve my career on software
