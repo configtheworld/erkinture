@@ -286,6 +286,20 @@ const Experiences = () => {
                     </div>
                   }
                 />
+
+                <Step
+                  title={
+                    <div className={classes.steps}>
+                      Jotform - Web Development Intern
+                    </div>
+                  }
+                  description={
+                    <div className={classes.stepsmini}>
+                      Ankara, Turkey - July 2021 - September 2021
+                    </div>
+                  }
+                />
+
                 <Step
                   title={
                     <div className={classes.steps}>
@@ -298,17 +312,14 @@ const Experiences = () => {
                     </div>
                   }
                 />
-
                 <Step
                   title={
                     <div className={classes.steps}>
-                      Jotform - Web Development Intern
+                      Integrio - Frontend Developer
                     </div>
                   }
                   description={
-                    <div className={classes.stepsmini}>
-                      Ankara, Turkey - July 2021 - September 2021
-                    </div>
+                    <div className={classes.stepsmini}>Sep 2021 - Present</div>
                   }
                 />
               </Steps>
