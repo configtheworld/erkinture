@@ -5,7 +5,7 @@ import Experiences from './Experiences';
 import Projects from './Projects';
 import CardCarousel from './CardCarousel';
 import configtheworldblog from './styles/configtheworldblog.png';
-import me from './styles/me.png';
+import me from './styles/erkin.jpeg';
 import github from './styles/githubpp.png';
 import ups from './styles/ups.png';
 // styles
@@ -20,15 +20,15 @@ import ContactForm from './ContactForm';
 const MainPage = () => {
   return (
     <Fragment>
-      <header className='header-design'>
-        <div className='listar-map-button'>
-          <Link href='http://configtheworld.herokuapp.com/'>
+      <header className="header-design">
+        <div className="listar-map-button">
+          <Link href="http://configtheworld.herokuapp.com/">
             <img
-              className='imagehover'
+              className="imagehover"
               src={configtheworldblog}
-              height='90px'
-              width='90px'
-              alt='start4ups'
+              height="90px"
+              width="90px"
+              alt="start4ups"
               style={{
                 borderRadius: '50%',
                 position: 'relative',
@@ -40,13 +40,13 @@ const MainPage = () => {
               }}
             />
           </Link>
-          <Link to='/'>
+          <Link to="/">
             <img
-              className=''
+              className=""
               src={me}
-              height='100px'
-              width='100px'
-              alt='me'
+              height="100px"
+              width="100px"
+              alt="me"
               style={{
                 borderRadius: '50%',
                 marginTop: '100px',
@@ -57,13 +57,13 @@ const MainPage = () => {
               }}
             />
           </Link>
-          <Link href='https://github.com/configtheworld'>
+          <Link href="https://github.com/configtheworld">
             <img
-              className='imagehover'
+              className="imagehover"
               src={github}
-              height='90px'
-              width='90px'
-              alt='github'
+              height="90px"
+              width="90px"
+              alt="github"
               style={{
                 borderRadius: '50%',
                 position: 'relative',
@@ -75,105 +75,105 @@ const MainPage = () => {
             />
           </Link>
         </div>
-        <div className='footer-wave' />
+        <div className="footer-wave" />
       </header>
 
       <Desc />
       <Pulse />
       <Stats />
-      <div className='pset'>
+      <div className="pset">
         <WhoIam xs={12} />
         <Experiences xs={6} />
         <Projects xs={4} />
         <ContactForm xs={12} />
         <CardCarousel />
-        <div className='socialmediabuttons'>
+        <div className="socialmediabuttons">
           <a
-            href='https://www.linkedin.com/in/erkin-berk-t%C3%BCre-76ab60163/'
-            className='socialmediabutton'
+            href="https://www.linkedin.com/in/erkin-berk-t%C3%BCre-76ab60163/"
+            className="socialmediabutton"
           >
             <img
-              src='https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/201_Linkedin_logo_logos-512.png'
-              alt='linkedin'
-              height='30px'
-              width='30px'
+              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/201_Linkedin_logo_logos-512.png"
+              alt="linkedin"
+              height="30px"
+              width="30px"
               style={{ opacity: '.6' }}
-              className='socialmediabuttonimage'
+              className="socialmediabuttonimage"
             />
           </a>
           <a
-            href='https://github.com/configtheworld'
-            className='socialmediabutton'
+            href="https://github.com/configtheworld"
+            className="socialmediabutton"
           >
             <img
-              src='https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png'
-              alt='github'
-              height='30px'
-              width='30px'
+              src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png"
+              alt="github"
+              height="30px"
+              width="30px"
               style={{ opacity: '.6' }}
-              className='socialmediabuttonimage'
+              className="socialmediabuttonimage"
             />
           </a>
-          <a href='http://www.start4ups.com/' className='socialmediabutton'>
+          <a href="http://www.start4ups.com/" className="socialmediabutton">
             <img
               src={ups}
-              alt='start4ups'
-              height='30px'
-              width='30px'
+              alt="start4ups"
+              height="30px"
+              width="30px"
               style={{ opacity: '.6' }}
-              className='socialmediabuttonimage'
+              className="socialmediabuttonimage"
             />
           </a>
           <a
-            href='https://gitlab.com/users/configtheworld/'
-            className='socialmediabutton'
+            href="https://gitlab.com/users/configtheworld/"
+            className="socialmediabutton"
           >
             <img
-              src='https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/144_Gitlab_logo_logos-512.png'
-              alt='gitlab'
-              height='30px'
-              width='30px'
+              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/144_Gitlab_logo_logos-512.png"
+              alt="gitlab"
+              height="30px"
+              width="30px"
               style={{ opacity: '.6' }}
-              className='socialmediabuttonimage'
+              className="socialmediabuttonimage"
             />
           </a>
           <a
-            href='https://stackoverflow.com/users/13969786/configtheworld'
-            className='socialmediabutton'
+            href="https://stackoverflow.com/users/13969786/configtheworld"
+            className="socialmediabutton"
           >
             <img
               src={stackoverflow}
-              alt='stackoverflow'
-              height='30px'
-              width='30px'
+              alt="stackoverflow"
+              height="30px"
+              width="30px"
               style={{ opacity: '0.6', marginBottom: '5px' }}
-              className='socialmediabuttonimage'
+              className="socialmediabuttonimage"
             />
           </a>
           <a
-            href='https://codepen.io/configtheworld'
-            className='socialmediabutton'
+            href="https://codepen.io/configtheworld"
+            className="socialmediabutton"
           >
             <img
-              src='https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Codepen-512.png'
-              alt='gitlab'
-              height='30px'
-              width='30px'
+              src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Codepen-512.png"
+              alt="gitlab"
+              height="30px"
+              width="30px"
               style={{ opacity: '.6' }}
-              className='socialmediabuttonimage'
+              className="socialmediabuttonimage"
             />
           </a>
           <a
-            href='https://www.hackerrank.com/erkinture'
-            className='socialmediabutton'
+            href="https://www.hackerrank.com/erkinture"
+            className="socialmediabutton"
           >
             <img
-              src='https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/160_Hackerrank_logo_logos-512.png'
-              alt='gitlab'
-              height='30px'
-              width='30px'
+              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/160_Hackerrank_logo_logos-512.png"
+              alt="gitlab"
+              height="30px"
+              width="30px"
               style={{ opacity: '.6' }}
-              className='socialmediabuttonimage'
+              className="socialmediabuttonimage"
             />
           </a>
         </div>
