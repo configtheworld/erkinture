@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/erkinture/static/css/main.2d7cc946.chunk.css",
-    "main.js": "/erkinture/static/js/main.af8178f3.chunk.js",
-    "main.js.map": "/erkinture/static/js/main.af8178f3.chunk.js.map",
+    "main.js": "/erkinture/static/js/main.44260244.chunk.js",
+    "main.js.map": "/erkinture/static/js/main.44260244.chunk.js.map",
     "runtime-main.js": "/erkinture/static/js/runtime-main.20e56416.js",
     "runtime-main.js.map": "/erkinture/static/js/runtime-main.20e56416.js.map",
     "static/css/2.a95be28f.chunk.css": "/erkinture/static/css/2.a95be28f.chunk.css",
@@ -20,11 +20,11 @@
     "static/media/cpp.4d06501c.png": "/erkinture/static/media/cpp.4d06501c.png",
     "static/media/crypto.9ceb9f97.png": "/erkinture/static/media/crypto.9ceb9f97.png",
     "static/media/ecc.1b8b8bb9.jpeg": "/erkinture/static/media/ecc.1b8b8bb9.jpeg",
+    "static/media/erkin.8572f864.jpeg": "/erkinture/static/media/erkin.8572f864.jpeg",
     "static/media/express.cca64e0f.png": "/erkinture/static/media/express.cca64e0f.png",
     "static/media/github.363cb5ed.png": "/erkinture/static/media/github.363cb5ed.png",
     "static/media/java.fdabd4e1.png": "/erkinture/static/media/java.fdabd4e1.png",
     "static/media/mars.9ce1c097.png": "/erkinture/static/media/mars.9ce1c097.png",
-    "static/media/me.094273c8.png": "/erkinture/static/media/me.094273c8.png",
     "static/media/mysql.167c8855.png": "/erkinture/static/media/mysql.167c8855.png",
     "static/media/node.534649be.svg": "/erkinture/static/media/node.534649be.svg",
     "static/media/npm.5df3e5b2.png": "/erkinture/static/media/npm.5df3e5b2.png",
@@ -41,6 +41,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.bd022d59.chunk.js",
     "static/css/main.2d7cc946.chunk.css",
-    "static/js/main.af8178f3.chunk.js"
+    "static/js/main.44260244.chunk.js"
   ]
 }
