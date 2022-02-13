@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import CardMedia from '@material-ui/core/CardMedia';
 import image1 from './styles/pro1.png';
 import image2 from './styles/simit3.png';
-import image3 from './styles/start.png';
+import waste from './styles/wastefind.png';
 import image4 from './styles/todo.png';
 import image5 from './styles/ybt.png';
 import image6 from './styles/mars.png';
@@ -92,6 +92,12 @@ const useStyles = makeStyles({
 });
 
 const data = [
+  {
+    img: waste,
+    title: 'WasteFind',
+    desc: 'WasteFind encourage recycling and turn it into a habit for everyone who wants to recycle but doesnt know-how.',
+    link: 'https://wastefind.netlify.app/',
+  },
   {
     img: crypto,
     title: 'unreal-crypto-wallet-api',
