@@ -3,12 +3,13 @@
 ## Clone
 
 ```js
-git clone <project ssh git url>
+git clone <project_ssh_git_url>
 
 npm install
 
 npm start
 ```
 
-cheers
+Cheers
+
 Erkin
