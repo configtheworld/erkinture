@@ -86,7 +86,7 @@ const MainPage = () => {
         <Experiences xs={6} />
         <Projects xs={4} />
         <ContactForm xs={12} />
-        <CardCarousel />
+        {/*<CardCarousel />*/}
         <div className="socialmediabuttons">
           <a
             href="https://www.linkedin.com/in/erkin-berk-t%C3%BCre-76ab60163/"

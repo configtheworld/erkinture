@@ -4,9 +4,9 @@ import './styles/cardcarousel.css';
 const cardItems = [
   {
     id: 1,
-    author: 'Doğukan Okçu',
-    title: 'Software Developer',
-    copy: 'Today is a good day to startup a bussiness with you.',
+    author: '...',
+    title: '...',
+    copy: '...',
   },
   {
     id: 2,
