@@ -13,6 +13,7 @@ import image6 from './styles/mars.png';
 import github from './styles/github.png';
 import npm from './styles/npm.png';
 import crypto from './styles/crypto.png';
+import cattery from './styles/cattery.png';
 
 import './styles/projects.css';
 import { ImageList } from '@material-ui/core';
@@ -110,6 +111,12 @@ const data = [
     title: 'Indexed-object-to-array',
     desc: 'Which is npm package for converting indexed keys objects into an array of objects. ',
     link: 'https://www.npmjs.com/package/indexed-object-to-array',
+  },
+  {
+    img: cattery,
+    title: 'GrandDesign Cattery',
+    desc: "Website of the world's largest domestic cats.",
+    link: 'http://www.mainecoontr.com/',
   },
   {
     img: image1,
