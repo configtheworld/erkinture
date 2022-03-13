@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/erkinture/static/css/main.2d7cc946.chunk.css",
-    "main.js": "/erkinture/static/js/main.d6262232.chunk.js",
-    "main.js.map": "/erkinture/static/js/main.d6262232.chunk.js.map",
+    "main.js": "/erkinture/static/js/main.00468a7f.chunk.js",
+    "main.js.map": "/erkinture/static/js/main.00468a7f.chunk.js.map",
     "runtime-main.js": "/erkinture/static/js/runtime-main.20e56416.js",
     "runtime-main.js.map": "/erkinture/static/js/runtime-main.20e56416.js.map",
     "static/css/2.a95be28f.chunk.css": "/erkinture/static/css/2.a95be28f.chunk.css",
@@ -16,6 +16,7 @@
     "static/js/2.bd022d59.chunk.js.LICENSE.txt": "/erkinture/static/js/2.bd022d59.chunk.js.LICENSE.txt",
     "static/media/2111640.2b57c636.png": "/erkinture/static/media/2111640.2b57c636.png",
     "static/media/MongoDB.ef7f797c.png": "/erkinture/static/media/MongoDB.ef7f797c.png",
+    "static/media/cattery.56ac9056.png": "/erkinture/static/media/cattery.56ac9056.png",
     "static/media/configtheworldblog.153da4d6.png": "/erkinture/static/media/configtheworldblog.153da4d6.png",
     "static/media/cpp.4d06501c.png": "/erkinture/static/media/cpp.4d06501c.png",
     "static/media/crypto.9ceb9f97.png": "/erkinture/static/media/crypto.9ceb9f97.png",
@@ -42,6 +43,6 @@
     "static/css/2.a95be28f.chunk.css",
     "static/js/2.bd022d59.chunk.js",
     "static/css/main.2d7cc946.chunk.css",
-    "static/js/main.d6262232.chunk.js"
+    "static/js/main.00468a7f.chunk.js"
   ]
 }
