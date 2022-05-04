@@ -97,7 +97,7 @@ const data = [
     img: waste,
     title: 'WasteFind',
     desc: 'WasteFind encourage recycling and turn it into a habit for everyone who wants to recycle but doesnt know-how.',
-    link: 'https://wastefind.netlify.app/',
+    link: 'https://wastefindio.netlify.app/',
   },
   {
     img: crypto,

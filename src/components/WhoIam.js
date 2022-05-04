@@ -6,6 +6,16 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
 import Chip from '@material-ui/core/Chip';
+import js from './styles/js.png';
+import node from './styles/node.svg';
+import react from './styles/logo512.png';
+import express from './styles/express.png';
+import java from './styles/java.png';
+import cpp from './styles/cpp.png';
+import py from './styles/py.png';
+import db1 from './styles/mysql.png';
+import db2 from './styles/postgre.png';
+import db3 from './styles/MongoDB.png';
 const { Step } = Steps;
 
 const useStyles = makeStyles({
@@ -30,7 +40,14 @@ const useStyles = makeStyles({
   text: {
     color: '#9a9a9a',
     margin: '10px',
-    width: '320px',
+    width: '340px',
+  },
+  text3: {
+    color: '#9a9a9a',
+    margin: '10px',
+    width: '200px',
+    fontSize: '0.8rem',
+    textAlign: 'center',
   },
   part: {
     textAlign: 'center',
@@ -46,6 +63,14 @@ const useStyles = makeStyles({
   stepsmini: {
     fontSize: '0.8rem',
     color: '#61DAFB',
+  },
+  circlebutton: {
+    borderRadius: '50%',
+    marginRight: '15px',
+  },
+  text2: {
+    color: '#9a9a9a',
+    fontSize: '0.7rem',
   },
 });
 
@@ -73,6 +98,18 @@ const WhoIam = () => {
                 <Step
                   title={
                     <div className={classes.steps}>
+                      Gazi University - English Preparatory School
+                    </div>
+                  }
+                  description={
+                    <div className={classes.stepsmini}>
+                      September 2017 – June 2018
+                    </div>
+                  }
+                />
+                <Step
+                  title={
+                    <div className={classes.steps}>
                       Embassy English Brighton
                     </div>
                   }
@@ -84,11 +121,26 @@ const WhoIam = () => {
                 />
                 <Step
                   title={
-                    <div className={classes.steps}>Computer Engineering</div>
+                    <div className={classes.steps}>
+                      Gazi University - B.Sc. Civil Engineering
+                    </div>
                   }
                   description={
                     <div className={classes.stepsmini}>
-                      Gazi University - September 2017 – BCompSc 2022
+                      September 2018 – June 2019 (changed major to computer
+                      engineering)
+                    </div>
+                  }
+                />
+                <Step
+                  title={
+                    <div className={classes.steps}>
+                      Gazi University - B.Sc. Computer Engineering
+                    </div>
+                  }
+                  description={
+                    <div className={classes.stepsmini}>
+                      September 2019 – June 2022
                     </div>
                   }
                 />
@@ -102,32 +154,20 @@ const WhoIam = () => {
               alignItems="center"
             >
               <h5 className={classes.text}>
-                {/**TODO: */}
-                Currently junior (3/4) student in Computer Engineering
-                bachelor's degree program at Gazi University Faculty of
-                Engineering. Willing to improve my career on software
-                development as full stack developer and entrepreneur. Always
-                open to learn
-                <hr style={{ border: '1px solid #555' }}></hr>I had experience
-                on MERN (Mongo-MySQL, Express, React, Node) project based real
-                life products. Familiar about RESTful Routing, REST API.
-                Passionate about Javascript and Clean Code. Currently looking
-                for a new experiences.
-              </h5>
-            </Grid>
-            <Grid
-              container
-              direction="row"
-              sm={4}
-              justifyContent="space-around"
-              alignItems="center"
-            >
-              <h5 className={classes.text}>
+                Currently, I am a senior year student in B.Sc.Computer
+                Engineering at Gazi University. I seek to improve my career in
+                every aspect of software development. I am always open to
+                learning new technologies, tools, and experiences.
+                <br />
+                <br />
                 <Chip
                   icon={
                     <i
                       className="fa fa-trophy"
-                      style={{ fontSize: '0.8rem', color: '#61DAFB' }}
+                      style={{
+                        fontSize: '0.8rem',
+                        color: '#61DAFB',
+                      }}
                       aria-hidden="true"
                     ></i>
                   }
@@ -136,30 +176,30 @@ const WhoIam = () => {
                   color="primary"
                   variant="outlined"
                 />
-                <br />I believe persistence and world is a playground
                 <br />
-                <hr style={{ marginBottom: '25px', border: '0px' }}></hr>
+                I believe mainly persistence matters in the life and the world
+                is a playground for those who are persistent
+                <br />
                 <Chip
                   icon={
                     <i
-                      className="fa fa-heartbeat"
+                      className="fa fa-users"
                       style={{ fontSize: '0.8rem', color: '#61DAFB' }}
                       aria-hidden="true"
                     ></i>
                   }
-                  label={<div className={classes.stepsmini}>Courage I had</div>}
+                  label={<div className={classes.stepsmini}>Team Member</div>}
                   clickable
                   color="primary"
                   variant="outlined"
                 />
-                <br /> To take a sinking ship and try to make it float. Other
-                words stress management
+                <br /> I think working with a team is best and if the team needs
+                some sparks I can take the responsibility as a servant leader.
                 <br />
-                <hr style={{ marginBottom: '25px', border: '0px' }}></hr>
                 <Chip
                   icon={
                     <i
-                      className="fa fa-heartbeat"
+                      className="fa fa-universal-access"
                       style={{ fontSize: '0.8rem', color: '#61DAFB' }}
                       aria-hidden="true"
                     ></i>
@@ -171,6 +211,143 @@ const WhoIam = () => {
                 />
                 <br /> I knock every single door
               </h5>
+            </Grid>
+
+            <Grid
+              container
+              direction="row"
+              sm={2}
+              justifyContent="space-around"
+              alignItems="center"
+            >
+              <div className={classes.text}>Recently working on</div>
+              <Grid
+                container
+                direction="column"
+                justifyContent="center"
+                alignItems="flex-start"
+              >
+                <div className={classes.stepsmini} style={{ margin: '10px' }}>
+                  <img
+                    src={js}
+                    height="50px"
+                    width="50px"
+                    className={classes.circlebutton}
+                    alt="js"
+                  />
+                  Javascript{' '}
+                </div>
+                <div className={classes.stepsmini} style={{ margin: '10px' }}>
+                  <img
+                    src={node}
+                    height="50px"
+                    width="50px"
+                    alt="nodejs"
+                    className={classes.circlebutton}
+                    style={{ backgroundColor: '#7a7a7a', paddingTop: '6px' }}
+                  />
+                  Nodejs{' '}
+                </div>
+                <div className={classes.stepsmini} style={{ margin: '10px' }}>
+                  <img
+                    src={react}
+                    height="50px"
+                    width="50px"
+                    alt="reactjs"
+                    className={classes.circlebutton}
+                  />
+                  Reactjs{' '}
+                </div>
+                <div className={classes.stepsmini} style={{ margin: '10px' }}>
+                  <img
+                    src={express}
+                    height="50px"
+                    width="50px"
+                    alt="expressjs"
+                    className={classes.circlebutton}
+                  />
+                  Expressjs{' '}
+                </div>
+              </Grid>
+            </Grid>
+            <Grid
+              container
+              direction="row"
+              sm={2}
+              justifyContent="space-around"
+              alignItems="center"
+            >
+              <div className={classes.text}>Languages</div>
+              <Grid
+                container
+                direction="column"
+                justifyContent="flex-start"
+                alignItems="flex-start"
+              >
+                <div className={classes.text2} style={{ margin: '10px' }}>
+                  <img
+                    src={java}
+                    height="40px"
+                    width="40px"
+                    alt="java"
+                    className={classes.circlebutton}
+                    style={{ backgroundColor: '#2e2e2e' }}
+                  />
+                  Java - OOP applications{' '}
+                </div>
+                <div className={classes.text2} style={{ margin: '10px' }}>
+                  <img
+                    src={cpp}
+                    height="40px"
+                    width="40px"
+                    alt="cpp"
+                    className={classes.circlebutton}
+                    style={{ backgroundColor: '#2e2e2e' }}
+                  />
+                  C/C++ D.Structures and
+                  <br /> Algorithms based{' '}
+                </div>
+                <div className={classes.text2} style={{ margin: '10px' }}>
+                  <img
+                    src={py}
+                    height="40px"
+                    width="40px"
+                    alt="py"
+                    className={classes.circlebutton}
+                    style={{ backgroundColor: '#2e2e2e' }}
+                  />
+                  Python-DataSceince project
+                  <br /> and Selenium Bots{' '}
+                </div>
+                <div className={classes.text3}>
+                  Databases
+                  <br />
+                  <img
+                    src={db1}
+                    height="50px"
+                    width="50px"
+                    alt="db1"
+                    className={classes.circlebutton}
+                    style={{ backgroundColor: '#2e2e2e' }}
+                  />
+                  <img
+                    src={db2}
+                    height="50px"
+                    width="50px"
+                    alt="db2"
+                    className={classes.circlebutton}
+                    style={{ backgroundColor: '#2e2e2e' }}
+                  />
+                  <img
+                    src={db3}
+                    height="50px"
+                    width="50px"
+                    alt="db3"
+                    className={classes.circlebutton}
+                    style={{ backgroundColor: '#2e2e2e' }}
+                  />
+                </div>
+              </Grid>
             </Grid>
           </Grid>
         </CardContent>

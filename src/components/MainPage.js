@@ -3,7 +3,6 @@ import Link from '@material-ui/core/Link';
 import WhoIam from './WhoIam';
 import Experiences from './Experiences';
 import Projects from './Projects';
-import CardCarousel from './CardCarousel';
 import configtheworldblog from './styles/configtheworldblog.png';
 import me from './styles/erkin.jpeg';
 import github from './styles/githubpp.png';

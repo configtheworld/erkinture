@@ -5,17 +5,10 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
+import waste from './styles/wastefind.png';
+import unity from './styles/unity.png';
 import './styles/languages.css';
-import js from './styles/js.png';
-import node from './styles/node.svg';
-import react from './styles/logo512.png';
-import express from './styles/express.png';
-import java from './styles/java.png';
-import cpp from './styles/cpp.png';
-import py from './styles/py.png';
-import db1 from './styles/mysql.png';
-import db2 from './styles/postgre.png';
-import db3 from './styles/MongoDB.png';
+
 import start4ups from './styles/start.png';
 import ecc from './styles/ecc.jpeg';
 const { Step } = Steps;
@@ -71,6 +64,171 @@ const useStyles = makeStyles({
 
 const Experiences = () => {
   const classes = useStyles();
+
+  const ExperinceSteps = () => {
+    return (
+      <Grid
+        container
+        direction="row"
+        sm={4}
+        justifyContent="center"
+        alignItems="center"
+      >
+        <Steps progressDot direction="vertical" current={4}>
+          <Step
+            title={
+              <div className={classes.steps}>
+                Solwider. - Frontend Web Developer
+              </div>
+            }
+            description={
+              <div className={classes.stepsmini}>
+                Ankara, Turkey - Jan 2021 - June 2021
+              </div>
+            }
+          />
+
+          <Step
+            title={
+              <div className={classes.steps}>
+                Jotform - Web Development Intern
+              </div>
+            }
+            description={
+              <div className={classes.stepsmini}>
+                Ankara, Turkey - July 2021 - September 2021
+              </div>
+            }
+          />
+
+          <Step
+            title={
+              <div className={classes.steps}>
+                SolaVieve - Full Stack Web Developer Intern
+              </div>
+            }
+            description={
+              <div className={classes.stepsmini}>
+                Heidelberg, Germany (remote) - June 2021 - September 2021
+              </div>
+            }
+          />
+          <Step
+            title={
+              <div className={classes.steps}>Integrio - Frontend Developer</div>
+            }
+            description={
+              <div className={classes.stepsmini}>Sep 2021 - Present</div>
+            }
+          />
+        </Steps>
+      </Grid>
+    );
+  };
+
+  const VolunteerWork = () => {
+    return (
+      <Grid
+        container
+        direction="row"
+        sm={4}
+        justifyContent="center"
+        alignItems="flex-start"
+      >
+        <div className={classes.text}>Volunteer Experiences</div>
+        <h5 className={classes.text}>
+          <br />
+          <div style={{ textAlign: 'start', marginLeft: '22px' }}>
+            <img
+              src={start4ups}
+              height="50px"
+              width="50px"
+              alt="start4ups"
+              className={classes.circlebutton}
+              style={{ backgroundColor: '#2e2e2e' }}
+            />
+            <span className={classes.stepsmini}>Entrepreneur Project</span>{' '}
+            Start4ups
+          </div>
+          <br />
+          Platform project which brings investors and ideas together, startup
+          network
+          <hr style={{ border: '1px solid #555' }}></hr>
+          <br />
+          <img
+            src={ecc}
+            height="50px"
+            width="50px"
+            alt="ECC"
+            className={classes.circlebutton}
+            style={{ backgroundColor: '#2e2e2e' }}
+          />
+          <span className={classes.stepsmini}>Social Project</span> Leader of
+          English Conversation Club
+          <br />
+          Gazi University Engineering Faculty - Since 2018
+        </h5>
+      </Grid>
+    );
+  };
+
+  const FinalProjects = () => {
+    return (
+      <Grid
+        container
+        direction="row"
+        sm={4}
+        justifyContent="space-around"
+        alignItems="center"
+      >
+        <div className={classes.text}>Final Projects</div>
+        <h5 className={classes.text}>
+          <div style={{ textAlign: 'start', marginLeft: '22px' }}>
+            <a
+              href="https://wastefindio.netlify.app/"
+              style={{ textDecorationColor: 'none' }}
+            >
+              <img
+                src={waste}
+                height="50px"
+                alt="start4ups"
+                className={classes.circlebutton}
+              />
+
+              <span className={classes.stepsmini}>WasteFind</span>
+            </a>
+            {'  Final Project I'}
+          </div>
+          <br />
+          WasteFind provides solutions for society and material collectors who
+          want to recycle their waste with the help of Image processing and use
+          the mapping/routing features for recycling centers in their living
+          areas easily at once by earning coins. Our project aims to encourage
+          recycling and turn it into a habit for everyone who wants to
+          contribute to natural recycling but doesn't know-how.
+          <hr style={{ border: '1px solid #555' }}></hr>
+          <br />
+          <div style={{ textAlign: 'start', marginLeft: '22px' }}>
+            <img
+              src={unity}
+              height="50px"
+              width="50px"
+              alt="ECC"
+              className={classes.circlebutton}
+              style={{ backgroundColor: '#2e2e2e' }}
+            />
+            <span className={classes.stepsmini}>NFT Auction Metaverse</span>
+            {' Final Project II'}
+          </div>
+          <br />
+          In order to observe and experience both simple and combinatorial
+          auctions on NFT trade, I am building an interactive 3D game on the
+          Unity game engine with crypto wallet authentication, marketplace
+          integrations for analyzing with user behaviors.
+        </h5>
+      </Grid>
+    );
+  };
   return (
     <div className="will-fadeIn">
       <Card className={classes.root}>
@@ -82,248 +240,10 @@ const Experiences = () => {
             justifyContent="space-around"
             alignItems="center"
           >
-            <Grid
-              container
-              direction="row"
-              sm={2}
-              justifyContent="space-around"
-              alignItems="center"
-            >
-              <div className={classes.text}>Recently working on</div>
-              <Grid
-                container
-                direction="column"
-                justifyContent="center"
-                alignItems="flex-start"
-              >
-                <div className={classes.stepsmini} style={{ margin: '10px' }}>
-                  <img
-                    src={js}
-                    height="50px"
-                    width="50px"
-                    className={classes.circlebutton}
-                    alt="js"
-                  />
-                  Javascript{' '}
-                </div>
-                <div className={classes.stepsmini} style={{ margin: '10px' }}>
-                  <img
-                    src={node}
-                    height="50px"
-                    width="50px"
-                    alt="nodejs"
-                    className={classes.circlebutton}
-                    style={{ backgroundColor: '#7a7a7a', paddingTop: '6px' }}
-                  />
-                  Nodejs{' '}
-                </div>
-                <div className={classes.stepsmini} style={{ margin: '10px' }}>
-                  <img
-                    src={react}
-                    height="50px"
-                    width="50px"
-                    alt="reactjs"
-                    className={classes.circlebutton}
-                  />
-                  Reactjs{' '}
-                </div>
-                <div className={classes.stepsmini} style={{ margin: '10px' }}>
-                  <img
-                    src={express}
-                    height="50px"
-                    width="50px"
-                    alt="expressjs"
-                    className={classes.circlebutton}
-                  />
-                  Expressjs{' '}
-                </div>
-              </Grid>
-            </Grid>
-            <Grid
-              container
-              direction="row"
-              sm={2}
-              justifyContent="space-around"
-              alignItems="center"
-            >
-              <div className={classes.text}>Languages</div>
-              <Grid
-                container
-                direction="column"
-                justifyContent="center"
-                alignItems="flex-start"
-              >
-                <div className={classes.text2} style={{ margin: '10px' }}>
-                  <img
-                    src={java}
-                    height="40px"
-                    width="40px"
-                    alt="java"
-                    className={classes.circlebutton}
-                    style={{ backgroundColor: '#2e2e2e' }}
-                  />
-                  Java - OOP applications{' '}
-                </div>
-                <div className={classes.text2} style={{ margin: '10px' }}>
-                  <img
-                    src={cpp}
-                    height="40px"
-                    width="40px"
-                    alt="cpp"
-                    className={classes.circlebutton}
-                    style={{ backgroundColor: '#2e2e2e', padding: '2px' }}
-                  />
-                  C/C++ D.Structures and Algorithms based{' '}
-                </div>
-                <div className={classes.text2} style={{ margin: '10px' }}>
-                  <img
-                    src={py}
-                    height="40px"
-                    width="40px"
-                    alt="py"
-                    className={classes.circlebutton}
-                    style={{ backgroundColor: '#2e2e2e', padding: '2px' }}
-                  />
-                  Python-DataSceince project and Selenium Bots{' '}
-                </div>
-                <div className={classes.text2} style={{ marginLeft: '40px' }}>
-                  <div style={{ marginLeft: '-12px' }}>Databases</div>
-                  <img
-                    src={db1}
-                    height="50px"
-                    width="50px"
-                    alt="db1"
-                    className={classes.circlebutton}
-                    style={{ backgroundColor: '#2e2e2e' }}
-                  />
-                  <img
-                    src={db2}
-                    height="50px"
-                    width="50px"
-                    alt="db2"
-                    className={classes.circlebutton}
-                    style={{ marginLeft: '-25px', backgroundColor: '#2e2e2e' }}
-                  />
-                  <img
-                    src={db3}
-                    height="50px"
-                    width="50px"
-                    alt="db3"
-                    className={classes.circlebutton}
-                    style={{ marginLeft: '-25px', backgroundColor: '#2e2e2e' }}
-                  />
-                </div>
-              </Grid>
-            </Grid>
-            <Grid
-              container
-              direction="row"
-              sm={4}
-              justifyContent="space-around"
-              alignItems="center"
-            >
-              <h5 className={classes.text}>
-                <hr style={{ border: '1px solid #555' }}></hr>
-                <span className={classes.stepsmini}>Entrepreneur Project</span>
-                <br />
-                <div style={{ textAlign: 'start', marginLeft: '22px' }}>
-                  <img
-                    src={start4ups}
-                    height="50px"
-                    width="50px"
-                    alt="start4ups"
-                    className={classes.circlebutton}
-                    style={{ backgroundColor: '#2e2e2e' }}
-                  />{' '}
-                  Start4ups
-                </div>
-                <br />
-                Platform which brings Investors and ideas together, startup
-                network and We have our own startups
-                <hr style={{ border: '1px solid #555' }}></hr>
-                <span className={classes.stepsmini}>Social Project</span>
-                <br />
-                <img
-                  src={ecc}
-                  height="50px"
-                  width="50px"
-                  alt="ECC"
-                  className={classes.circlebutton}
-                  style={{ backgroundColor: '#2e2e2e' }}
-                />{' '}
-                Leader of English Conversation Club
-                <br />
-                Gazi University Engineering Faculty - Since 2018
-              </h5>
-            </Grid>
-            <Grid
-              container
-              direction="row"
-              sm={4}
-              justifyContent="space-around"
-              alignItems="center"
-            >
-              <Steps progressDot direction="vertical" current={4}>
-                <Step
-                  title={
-                    <div className={classes.steps}>Start4ups - Founder</div>
-                  }
-                  description={
-                    <div className={classes.stepsmini}>
-                      Startup Bootster Platform - since May 2019 - Side Project
-                    </div>
-                  }
-                />
-                <Step
-                  title={
-                    <div className={classes.steps}>
-                      Solwider. - Frontend Web Developer
-                    </div>
-                  }
-                  description={
-                    <div className={classes.stepsmini}>
-                      Ankara, Turkey - Jan 2021 - June 2021
-                    </div>
-                  }
-                />
+            <FinalProjects />
 
-                <Step
-                  title={
-                    <div className={classes.steps}>
-                      Jotform - Web Development Intern
-                    </div>
-                  }
-                  description={
-                    <div className={classes.stepsmini}>
-                      Ankara, Turkey - July 2021 - September 2021
-                    </div>
-                  }
-                />
-
-                <Step
-                  title={
-                    <div className={classes.steps}>
-                      SolaVieve - Full Stack Web Developer Intern
-                    </div>
-                  }
-                  description={
-                    <div className={classes.stepsmini}>
-                      Heidelberg, Germany (remote) - June 2021 - September 2021
-                    </div>
-                  }
-                />
-                <Step
-                  title={
-                    <div className={classes.steps}>
-                      Integrio - Frontend Developer
-                    </div>
-                  }
-                  description={
-                    <div className={classes.stepsmini}>Sep 2021 - Present</div>
-                  }
-                />
-              </Steps>
-            </Grid>
+            <VolunteerWork />
+            <ExperinceSteps />
           </Grid>
         </CardContent>
       </Card>
