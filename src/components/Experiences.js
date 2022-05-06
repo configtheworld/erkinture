@@ -7,7 +7,6 @@ import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
 import waste from './styles/wastefind.png';
 import unity from './styles/unity.png';
-import './styles/languages.css';
 
 import start4ups from './styles/start.png';
 import ecc from './styles/ecc.jpeg';
