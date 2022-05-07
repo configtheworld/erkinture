@@ -14,7 +14,7 @@ const Desc = () => {
               color: '#AFAFAF',
             }}
           >
-            Hello, I am Erkin
+            Hello, I am Configtheworld
           </h1>
 
           <div className="middle" style={{ marginBottom: '65px' }}>
