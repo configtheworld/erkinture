@@ -6,16 +6,16 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
 import Chip from '@material-ui/core/Chip';
-import js from './styles/js.png';
-import node from './styles/node.svg';
-import react from './styles/logo512.png';
-import express from './styles/express.png';
-import java from './styles/java.png';
-import cpp from './styles/cpp.png';
-import py from './styles/py.png';
-import db1 from './styles/mysql.png';
-import db2 from './styles/postgre.png';
-import db3 from './styles/MongoDB.png';
+import js from '../public/img/js.png';
+import node from '../public/img/node.svg';
+import react from '../public/img/logo512.png';
+import express from '../public/img/express.png';
+import java from '../public/img/java.png';
+import cpp from '../public/img/cpp.png';
+import py from '../public/img/py.png';
+import db1 from '../public/img/mysql.png';
+import db2 from '../public/img/postgre.png';
+import db3 from '../public/img/MongoDB.png';
 const { Step } = Steps;
 
 const useStyles = makeStyles({

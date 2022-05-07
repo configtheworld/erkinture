@@ -5,11 +5,11 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
-import waste from './styles/wastefind.png';
-import unity from './styles/unity.png';
+import waste from '../public/img/wastefind.png';
+import unity from '../public/img/unity.png';
 
-import start4ups from './styles/start.png';
-import ecc from './styles/ecc.jpeg';
+import start4ups from '../public/img/start.png';
+import ecc from '../public/img/ecc.jpeg';
 const { Step } = Steps;
 const useStyles = makeStyles({
   root: {

@@ -3,17 +3,17 @@ import Link from '@material-ui/core/Link';
 import WhoIam from './WhoIam';
 import Experiences from './Experiences';
 import Projects from './Projects';
-import configtheworldblog from './styles/configtheworldblog.png';
-import me from './styles/erkin.jpeg';
-import github from './styles/githubpp.png';
-import ups from './styles/ups.png';
+import configtheworldblog from '../public/img/configtheworldblog.png';
+import me from '../public/img/erkin.jpeg';
+import github from '../public/img/githubpp.png';
+import ups from '../public/img/ups.png';
 // styles
-import './styles/pulseball.css';
-import './styles/slide.css';
+import '../public/styles/pulseball.css';
+import '../public/styles/slide.css';
 import Pulse from './Pulse';
 import Desc from './Desc';
 import Stats from './Stats';
-import stackoverflow from './styles/2111640.png';
+import stackoverflow from '../public/img/2111640.png';
 import ContactForm from './ContactForm';
 
 const MainPage = () => {

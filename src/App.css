@@ -92,7 +92,7 @@ header .footer-wave {
   left: 0;
   z-index: 1;
   bottom: -67px;
-  background: url('components/hero-wave.png') repeat-x;
+  background: url('public/img/hero-wave.png') repeat-x;
   animation: wave 10s cubic-bezier(0.44, 0.66, 0.67, 0.37) infinite;
 }
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useCallback, useState } from 'react';
-import './styles/cardcarousel.css';
+import '../public/styles/cardcarousel.css';
 
 const cardItems = [
   {

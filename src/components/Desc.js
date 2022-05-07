@@ -1,4 +1,4 @@
-import './styles/desc.css';
+import '../public/styles/desc.css';
 import Box from '@material-ui/core/Box';
 
 const Desc = () => {
