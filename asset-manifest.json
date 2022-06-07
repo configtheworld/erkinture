@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/erkinture/static/css/main.ed66aa63.chunk.css",
-    "main.js": "/erkinture/static/js/main.04f52d8a.chunk.js",
-    "main.js.map": "/erkinture/static/js/main.04f52d8a.chunk.js.map",
+    "main.js": "/erkinture/static/js/main.57e1657a.chunk.js",
+    "main.js.map": "/erkinture/static/js/main.57e1657a.chunk.js.map",
     "runtime-main.js": "/erkinture/static/js/runtime-main.ab0735a8.js",
     "runtime-main.js.map": "/erkinture/static/js/runtime-main.ab0735a8.js.map",
     "static/css/2.8f6db6d9.chunk.css": "/erkinture/static/css/2.8f6db6d9.chunk.css",
-    "static/js/2.e1744a53.chunk.js": "/erkinture/static/js/2.e1744a53.chunk.js",
-    "static/js/2.e1744a53.chunk.js.map": "/erkinture/static/js/2.e1744a53.chunk.js.map",
+    "static/js/2.a419534a.chunk.js": "/erkinture/static/js/2.a419534a.chunk.js",
+    "static/js/2.a419534a.chunk.js.map": "/erkinture/static/js/2.a419534a.chunk.js.map",
     "index.html": "/erkinture/index.html",
     "static/css/2.8f6db6d9.chunk.css.map": "/erkinture/static/css/2.8f6db6d9.chunk.css.map",
     "static/css/main.ed66aa63.chunk.css.map": "/erkinture/static/css/main.ed66aa63.chunk.css.map",
-    "static/js/2.e1744a53.chunk.js.LICENSE.txt": "/erkinture/static/js/2.e1744a53.chunk.js.LICENSE.txt",
+    "static/js/2.a419534a.chunk.js.LICENSE.txt": "/erkinture/static/js/2.a419534a.chunk.js.LICENSE.txt",
     "static/media/2111640.2b57c636.png": "/erkinture/static/media/2111640.2b57c636.png",
     "static/media/MongoDB.ef7f797c.png": "/erkinture/static/media/MongoDB.ef7f797c.png",
     "static/media/cattery.56ac9056.png": "/erkinture/static/media/cattery.56ac9056.png",
@@ -39,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.ab0735a8.js",
     "static/css/2.8f6db6d9.chunk.css",
-    "static/js/2.e1744a53.chunk.js",
+    "static/js/2.a419534a.chunk.js",
     "static/css/main.ed66aa63.chunk.css",
-    "static/js/main.04f52d8a.chunk.js"
+    "static/js/main.57e1657a.chunk.js"
   ]
 }
