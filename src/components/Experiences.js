@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
 import waste from '../public/img/wastefind.png';
-import unity from '../public/img/unity.png';
+import unity from '../public/img/aunity.png';
 
 import start4ups from '../public/img/start.png';
 import ecc from '../public/img/ecc.jpeg';

@@ -6,14 +6,14 @@ import Projects from './Projects';
 import configtheworldblog from '../public/img/configtheworldblog.png';
 import me from '../public/img/erkin.jpeg';
 import github from '../public/img/githubpp.png';
-import ups from '../public/img/ups.png';
+import ups from '../public/img/logo512.png';
 // styles
 import '../public/styles/pulseball.css';
 import '../public/styles/slide.css';
 import Pulse from './Pulse';
 import Desc from './Desc';
 import Stats from './Stats';
-import stackoverflow from '../public/img/2111640.png';
+import stackoverflow from '../public/img/logo512.png';
 import ContactForm from './ContactForm';
 
 const MainPage = () => {
@@ -113,16 +113,7 @@ const MainPage = () => {
               className="socialmediabuttonimage"
             />
           </a>
-          <a href="http://www.start4ups.com/" className="socialmediabutton">
-            <img
-              src={ups}
-              alt="start4ups"
-              height="30px"
-              width="30px"
-              style={{ opacity: '.6' }}
-              className="socialmediabuttonimage"
-            />
-          </a>
+
           <a
             href="https://gitlab.com/users/configtheworld/"
             className="socialmediabutton"
@@ -141,7 +132,7 @@ const MainPage = () => {
             className="socialmediabutton"
           >
             <img
-              src={stackoverflow}
+              src="https://cdn-icons-png.flaticon.com/512/2111/2111640.png"
               alt="stackoverflow"
               height="30px"
               width="30px"

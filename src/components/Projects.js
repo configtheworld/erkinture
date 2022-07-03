@@ -4,16 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import CardMedia from '@material-ui/core/CardMedia';
-import image1 from '../public/img/pro1.png';
-import image2 from '../public/img/simit3.png';
-import waste from '../public/img/wastefind.png';
-import image4 from '../public/img/todo.png';
-import image5 from '../public/img/ybt.png';
-import image6 from '../public/img/mars.png';
-import github from '../public/img/github.png';
-import npm from '../public/img/npm.png';
-import crypto from '../public/img/crypto.png';
-import cattery from '../public/img/cattery.png';
+import logo from '../public/img/githubpp.png';
 
 import '../public/styles/projects.css';
 import { ImageList } from '@material-ui/core';
@@ -94,80 +85,80 @@ const useStyles = makeStyles({
 
 const data = [
   {
-    img: waste,
+    img: logo,
     title: 'WasteFind',
     desc: 'WasteFind encourage recycling and turn it into a habit for everyone who wants to recycle but doesnt know-how.',
     link: 'https://wastefindio.netlify.app/',
   },
   {
-    img: crypto,
+    img: logo,
     title: 'unreal-crypto-wallet-api',
     desc: 'This is Public API interface for Crypto Currencies and Fake Wallet Account for Tracking The Stock Market.',
     link: 'https://unreal-crypto-wallet-api.herokuapp.com/',
   },
 
   {
-    img: npm,
+    img: logo,
     title: 'Indexed-object-to-array',
     desc: 'Which is npm package for converting indexed keys objects into an array of objects. ',
     link: 'https://www.npmjs.com/package/indexed-object-to-array',
   },
   {
-    img: cattery,
+    img: logo,
     title: 'GrandDesign Cattery',
     desc: "Website of the world's largest domestic cats.",
     link: 'http://www.mainecoontr.com/',
   },
   {
-    img: image1,
+    img: logo,
     title: 'Configtheworld',
     desc: 'This is the platform which you can find news, articles and tutorials about technology and lifestyle.',
     link: 'https://configtheworld.herokuapp.com/',
   },
   {
-    img: image2,
+    img: logo,
     title: 'Simitlock',
     desc: 'Save your password with dual AES encryption 🔐, Generate strong passwords with various ways 💪',
     link: 'https://simitlock.herokuapp.com/',
   },
   {
-    img: image4,
+    img: logo,
     title: 'Toodoose',
     desc: 'Not a big deal. Just a to-do list for groups and multiple users',
     link: 'https://toodoose.herokuapp.com/',
   },
   {
-    img: '',
+    img: logo,
     title: 'DataScience Project',
     desc: 'Observations Classifications and Multiple Prediction for Heart Failure Dataset',
     link: '#',
   },
   {
-    img: image5,
+    img: logo,
     title: 'ybt parking',
     desc: 'Araç Hizmet Çözümleri',
     link: 'http://www.ybtparking.com/',
   },
   {
-    img: 'https://seeklogo.com/images/P/php-logo-ADE513E748-seeklogo.com.png',
+    img: logo,
     title: 'Student Information System',
     desc: 'Secure SIS with Postgrsql and PHP',
     link: 'https://github.com/configtheworld/Student-Information-System-Php-Postgresql',
   },
   {
-    img: 'http://www.serdaronder.com/wp-content/uploads/2020/03/microsoft-csharp-dotnet.jpg',
+    img: logo,
     title: 'HTTU',
     desc: 'Hasta Tespit Takip Uygulaması',
     link: 'https://github.com/configtheworld/ProjeHTTU',
   },
   {
-    img: image6,
+    img: logo,
     title: 'Mars Real Estate',
     desc: 'C console app for mars lands',
     link: 'https://github.com/configtheworld/mars',
   },
   {
-    img: github,
+    img: logo,
     title: 'More',
     desc: 'More Projects in My Github',
     link: 'https://github.com/configtheworld/',
@@ -180,7 +171,7 @@ const Projects = () => {
     <div className="will-fadeIn vertical">
       <Card className={classes.root}>
         <CardContent className={classes.part}>
-          <Typography className={classes.title}>Personal Projects</Typography>
+          <Typography className={classes.title}>Projects</Typography>
 
           <div className={classes.rootCard}>
             {data ? (

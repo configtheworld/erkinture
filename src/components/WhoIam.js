@@ -6,16 +6,16 @@ import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
 import Chip from '@material-ui/core/Chip';
-import js from '../public/img/js.png';
-import node from '../public/img/node.svg';
+import js from '../public/img/logo512.png';
+import node from '../public/img/logo512.png';
 import react from '../public/img/logo512.png';
-import express from '../public/img/express.png';
-import java from '../public/img/java.png';
-import cpp from '../public/img/cpp.png';
-import py from '../public/img/py.png';
-import db1 from '../public/img/mysql.png';
-import db2 from '../public/img/postgre.png';
-import db3 from '../public/img/MongoDB.png';
+import express from '../public/img/logo512.png';
+import java from '../public/img/logo512.png';
+import cpp from '../public/img/logo512.png';
+import py from '../public/img/logo512.png';
+import db1 from '../public/img/logo512.png';
+import db2 from '../public/img/logo512.png';
+import db3 from '../public/img/logo512.png';
 const { Step } = Steps;
 
 const useStyles = makeStyles({
@@ -160,56 +160,17 @@ const WhoIam = () => {
                 learning new technologies, tools, and experiences.
                 <br />
                 <br />
-                <Chip
-                  icon={
-                    <i
-                      className="fa fa-trophy"
-                      style={{
-                        fontSize: '0.8rem',
-                        color: '#61DAFB',
-                      }}
-                      aria-hidden="true"
-                    ></i>
-                  }
-                  label={<div className={classes.stepsmini}>Persistence</div>}
-                  clickable
-                  color="primary"
-                  variant="outlined"
-                />
-                <br />
+                <div className={classes.stepsmini}>Persistence</div>
                 I believe mainly persistence matters in the life and the world
                 is a playground for those who are persistent
                 <br />
-                <Chip
-                  icon={
-                    <i
-                      className="fa fa-users"
-                      style={{ fontSize: '0.8rem', color: '#61DAFB' }}
-                      aria-hidden="true"
-                    ></i>
-                  }
-                  label={<div className={classes.stepsmini}>Team Member</div>}
-                  clickable
-                  color="primary"
-                  variant="outlined"
-                />
-                <br /> I think working with a team is best and if the team needs
-                some sparks I can take the responsibility as a servant leader.
+                <div className={classes.stepsmini}>Team Member</div>I think
+                working with a team is best and if the team needs some sparks I
+                can take the responsibility as a servant leader.
                 <br />
-                <Chip
-                  icon={
-                    <i
-                      className="fa fa-universal-access"
-                      style={{ fontSize: '0.8rem', color: '#61DAFB' }}
-                      aria-hidden="true"
-                    ></i>
-                  }
-                  label={<div className={classes.stepsmini}>Entrepreneur</div>}
-                  clickable
-                  color="primary"
-                  variant="outlined"
-                />
-                <br /> I knock every single door
+                <div className={classes.stepsmini}>Entrepreneur</div>I knock on
+                every single door if that is a mistake I win a lesson otherwise
+                win the success itself
               </h5>
             </Grid>
 
@@ -220,7 +181,7 @@ const WhoIam = () => {
               justifyContent="space-around"
               alignItems="center"
             >
-              <div className={classes.text}>Recently working on</div>
+              <div className={classes.text}>Recently working with</div>
               <Grid
                 container
                 direction="column"
@@ -229,7 +190,7 @@ const WhoIam = () => {
               >
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
-                    src={js}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/225px-Unofficial_JavaScript_logo_2.svg.png"
                     height="50px"
                     width="50px"
                     className={classes.circlebutton}
@@ -239,12 +200,11 @@ const WhoIam = () => {
                 </div>
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
-                    src={node}
+                    src="https://nodejs.org/static/images/logo.svg"
                     height="50px"
                     width="50px"
                     alt="nodejs"
                     className={classes.circlebutton}
-                    style={{ backgroundColor: '#7a7a7a', paddingTop: '6px' }}
                   />
                   Nodejs{' '}
                 </div>
@@ -260,11 +220,12 @@ const WhoIam = () => {
                 </div>
                 <div className={classes.stepsmini} style={{ margin: '10px' }}>
                   <img
-                    src={express}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Expressjs.png/121px-Expressjs.png"
                     height="50px"
                     width="50px"
                     alt="expressjs"
                     className={classes.circlebutton}
+                    style={{ objectFit: 'contain' }}
                   />
                   Expressjs{' '}
                 </div>
@@ -286,44 +247,43 @@ const WhoIam = () => {
               >
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
-                    src={java}
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/121px-Java_programming_language_logo.svg.png"
                     height="40px"
                     width="40px"
                     alt="java"
                     className={classes.circlebutton}
-                    style={{ backgroundColor: '#2e2e2e' }}
+                    style={{ backgroundColor: '#2e2e2e', objectFit: 'contain' }}
                   />
-                  Java - OOP applications{' '}
+                  Java - OOP applications, Scalable API projects
                 </div>
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
-                    src={cpp}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/120px-C_Sharp_wordmark.svg.png"
                     height="40px"
                     width="40px"
                     alt="cpp"
                     className={classes.circlebutton}
                     style={{ backgroundColor: '#2e2e2e' }}
                   />
-                  C/C++ D.Structures and
-                  <br /> Algorithms based{' '}
+                  C/C++ D.Structures and Algorithms based{' '}
                 </div>
                 <div className={classes.text2} style={{ margin: '10px' }}>
                   <img
-                    src={py}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/121px-Python-logo-notext.svg.png"
                     height="40px"
                     width="40px"
                     alt="py"
                     className={classes.circlebutton}
                     style={{ backgroundColor: '#2e2e2e' }}
                   />
-                  Python-DataSceince project
-                  <br /> and Selenium Bots{' '}
+                  Python- Data Sceince and Image processing projects and also
+                  Web Scraping APIs
                 </div>
                 <div className={classes.text3}>
                   Databases
                   <br />
                   <img
-                    src={db1}
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/100px-MySQL_logo.svg.png"
                     height="50px"
                     width="50px"
                     alt="db1"
@@ -331,7 +291,7 @@ const WhoIam = () => {
                     style={{ backgroundColor: '#2e2e2e' }}
                   />
                   <img
-                    src={db2}
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/121px-Postgresql_elephant.svg.png"
                     height="50px"
                     width="50px"
                     alt="db2"
@@ -339,12 +299,12 @@ const WhoIam = () => {
                     style={{ backgroundColor: '#2e2e2e' }}
                   />
                   <img
-                    src={db3}
+                    src="https://res.cloudinary.com/hevo/image/upload/f_auto,q_auto/v1644403814/hevo-learn/springboot_MongoDB_configuration_mongodb.jpg?_i=AA"
                     height="50px"
                     width="50px"
                     alt="db3"
                     className={classes.circlebutton}
-                    style={{ backgroundColor: '#2e2e2e' }}
+                    style={{ backgroundColor: '#555', objectFit: 'cover' }}
                   />
                 </div>
               </Grid>

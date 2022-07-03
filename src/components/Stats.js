@@ -72,7 +72,7 @@ const Stats = () => {
       </div>
 
       <div>
-        <CountUp separator=" " end={6} suffix="/2022" redraw={true}>
+        <CountUp separator=" " end={3} suffix=".18/4" redraw={true}>
           {({ countUpRef, start }) => (
             <VisibilitySensor onChange={start} delayedCall>
               <span
@@ -87,7 +87,7 @@ const Stats = () => {
           )}
         </CountUp>
         <div style={{ color: '#61DAFB', textAlign: 'center' }}>
-          Expected Graduation
+          Graduation GPA
         </div>
       </div>
     </Grid>
