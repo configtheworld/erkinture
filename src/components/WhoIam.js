@@ -5,74 +5,8 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
-// import Chip from '@material-ui/core/Chip';
-// import js from '../public/img/logo512.png';
-// import node from '../public/img/logo512.png';
 import react from '../public/img/logo512.png';
-// import express from '../public/img/logo512.png';
-// import java from '../public/img/logo512.png';
-// import cpp from '../public/img/logo512.png';
-// import py from '../public/img/logo512.png';
-// import db1 from '../public/img/logo512.png';
-// import db2 from '../public/img/logo512.png';
-// import db3 from '../public/img/logo512.png';
 const { Step } = Steps;
-
-const useStyles = makeStyles({
-  root: {
-    minWidth: 275,
-    minHeight: '400px',
-    boxShadow: '7px 18px 50px #111',
-    WebkitBoxShadow: '7px 18px 50px #111',
-    zIndex: '10',
-    backgroundColor: 'transparent',
-    textAlign: 'center',
-    marginRight: '40px',
-    marginLeft: '40px',
-  },
-  title: {
-    fontSize: '2.5rem',
-    color: '#f0f0f0',
-  },
-  pos: {
-    marginBottom: 12,
-  },
-  text: {
-    color: '#9a9a9a',
-    margin: '10px',
-    width: '340px',
-  },
-  text3: {
-    color: '#9a9a9a',
-    margin: '10px',
-    width: '200px',
-    fontSize: '0.8rem',
-    textAlign: 'center',
-  },
-  part: {
-    textAlign: 'center',
-  },
-  sha: {
-    textShadow:
-      '0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1)',
-  },
-  steps: {
-    fontSize: '1rem',
-    color: '#ffffff',
-  },
-  stepsmini: {
-    fontSize: '0.8rem',
-    color: '#61DAFB',
-  },
-  circlebutton: {
-    borderRadius: '50%',
-    marginRight: '15px',
-  },
-  text2: {
-    color: '#9a9a9a',
-    fontSize: '0.7rem',
-  },
-});
 
 const WhoIam = () => {
   const classes = useStyles();
@@ -315,5 +249,61 @@ const WhoIam = () => {
     </div>
   );
 };
+
+const useStyles = makeStyles({
+  root: {
+    minWidth: 275,
+    minHeight: '400px',
+    boxShadow: '7px 18px 50px #111',
+    WebkitBoxShadow: '7px 18px 50px #111',
+    zIndex: '10',
+    backgroundColor: 'transparent',
+    textAlign: 'center',
+    marginRight: '40px',
+    marginLeft: '40px',
+  },
+  title: {
+    fontSize: '2.5rem',
+    color: '#f0f0f0',
+  },
+  pos: {
+    marginBottom: 12,
+  },
+  text: {
+    color: '#9a9a9a',
+    margin: '10px',
+    width: '340px',
+  },
+  text3: {
+    color: '#9a9a9a',
+    margin: '10px',
+    width: '200px',
+    fontSize: '0.8rem',
+    textAlign: 'center',
+  },
+  part: {
+    textAlign: 'center',
+  },
+  sha: {
+    textShadow:
+      '0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1)',
+  },
+  steps: {
+    fontSize: '1rem',
+    color: '#ffffff',
+  },
+  stepsmini: {
+    fontSize: '0.8rem',
+    color: '#61DAFB',
+  },
+  circlebutton: {
+    borderRadius: '50%',
+    marginRight: '15px',
+  },
+  text2: {
+    color: '#9a9a9a',
+    fontSize: '0.7rem',
+  },
+});
 
 export default WhoIam;

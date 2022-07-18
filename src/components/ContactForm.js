@@ -26,7 +26,6 @@ const ContactForm = () => {
   };
 
   const sendEmail = (e) => {
-    //e.preventDefault();
     setloading(true);
 
     if (form.message !== '' && form.user_mail !== '' && form.title !== '') {
@@ -39,7 +38,6 @@ const ContactForm = () => {
         )
         .then((res) => {
           if (res.status === 200) {
-            //console.log(res);
             setform({
               title: '',
               user_mail: '',
@@ -50,7 +48,6 @@ const ContactForm = () => {
           setloading(false);
         })
         .catch((err) => {
-          //console.log(err);
           setloading(false);
         });
     } else {

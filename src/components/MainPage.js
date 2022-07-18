@@ -6,15 +6,13 @@ import Projects from './Projects';
 import configtheworldblog from '../public/img/configtheworldblog.png';
 import me from '../public/img/erkin.jpeg';
 import github from '../public/img/githubpp.png';
-//import ups from '../public/img/logo512.png';
-// styles
 import '../public/styles/pulseball.css';
 import '../public/styles/slide.css';
 import Pulse from './Pulse';
 import Desc from './Desc';
 import Stats from './Stats';
-//import stackoverflow from '../public/img/logo512.png';
 import ContactForm from './ContactForm';
+import SocialMediaButtons from './SocialMediaButtons';
 
 const MainPage = () => {
   return (
@@ -85,88 +83,7 @@ const MainPage = () => {
         <Experiences xs={6} />
         <Projects xs={4} />
         <ContactForm xs={12} />
-        {/*<CardCarousel />*/}
-        <div className="socialmediabuttons">
-          <a
-            href="https://www.linkedin.com/in/erkin-berk-t%C3%BCre-76ab60163/"
-            className="socialmediabutton"
-          >
-            <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/201_Linkedin_logo_logos-512.png"
-              alt="linkedin"
-              height="30px"
-              width="30px"
-              style={{ opacity: '.6' }}
-              className="socialmediabuttonimage"
-            />
-          </a>
-          <a
-            href="https://github.com/configtheworld"
-            className="socialmediabutton"
-          >
-            <img
-              src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png"
-              alt="github"
-              height="30px"
-              width="30px"
-              style={{ opacity: '.6' }}
-              className="socialmediabuttonimage"
-            />
-          </a>
-
-          <a
-            href="https://gitlab.com/users/configtheworld/"
-            className="socialmediabutton"
-          >
-            <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/144_Gitlab_logo_logos-512.png"
-              alt="gitlab"
-              height="30px"
-              width="30px"
-              style={{ opacity: '.6' }}
-              className="socialmediabuttonimage"
-            />
-          </a>
-          <a
-            href="https://stackoverflow.com/users/13969786/configtheworld"
-            className="socialmediabutton"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2111/2111640.png"
-              alt="stackoverflow"
-              height="30px"
-              width="30px"
-              style={{ opacity: '0.6', marginBottom: '5px' }}
-              className="socialmediabuttonimage"
-            />
-          </a>
-          <a
-            href="https://codepen.io/configtheworld"
-            className="socialmediabutton"
-          >
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Codepen-512.png"
-              alt="gitlab"
-              height="30px"
-              width="30px"
-              style={{ opacity: '.6' }}
-              className="socialmediabuttonimage"
-            />
-          </a>
-          <a
-            href="https://www.hackerrank.com/erkinture"
-            className="socialmediabutton"
-          >
-            <img
-              src="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/160_Hackerrank_logo_logos-512.png"
-              alt="gitlab"
-              height="30px"
-              width="30px"
-              style={{ opacity: '.6' }}
-              className="socialmediabuttonimage"
-            />
-          </a>
-        </div>
+        <SocialMediaButtons />
       </div>
     </Fragment>
   );

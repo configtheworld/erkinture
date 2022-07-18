@@ -11,56 +11,6 @@ import unity from '../public/img/aunity.png';
 import start4ups from '../public/img/start.png';
 import ecc from '../public/img/ecc.jpeg';
 const { Step } = Steps;
-const useStyles = makeStyles({
-  root: {
-    minWidth: 275,
-    minHeight: '400px',
-    boxShadow: '7px 18px 50px #111',
-    WebkitBoxShadow: '7px 18px 50px #111',
-    zIndex: '10',
-    backgroundColor: 'transparent',
-    textAlign: 'center',
-    marginRight: '40px',
-    marginLeft: '40px',
-    marginTop: '200px',
-  },
-  title: {
-    fontSize: '2.5rem',
-    color: '#f0f0f0',
-  },
-  pos: {
-    marginBottom: 12,
-  },
-  text: {
-    color: '#9a9a9a',
-    margin: '10px',
-    width: '320px',
-  },
-  text2: {
-    color: '#9a9a9a',
-    fontSize: '0.7rem',
-  },
-  part: {
-    textAlign: 'center',
-  },
-  sha: {
-    textShadow:
-      '0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1)',
-  },
-  steps: {
-    fontSize: '1rem',
-    color: '#ffffff',
-  },
-  stepsmini: {
-    fontSize: '0.8rem',
-    color: '#61DAFB',
-  },
-  circlebutton: {
-    borderRadius: '50%',
-    marginRight: '15px',
-  },
-});
-
 const Experiences = () => {
   const classes = useStyles();
 
@@ -216,7 +166,7 @@ const Experiences = () => {
               className={classes.circlebutton}
               style={{ backgroundColor: '#2e2e2e' }}
             />
-            <span className={classes.stepsmini}>NFT Auction Metaverse</span>
+            <span className={classes.stepsmini}>NFT Auction Game</span>
             {' Final Project II'}
           </div>
           <br />
@@ -249,5 +199,55 @@ const Experiences = () => {
     </div>
   );
 };
+
+const useStyles = makeStyles({
+  root: {
+    minWidth: 275,
+    minHeight: '400px',
+    boxShadow: '7px 18px 50px #111',
+    WebkitBoxShadow: '7px 18px 50px #111',
+    zIndex: '10',
+    backgroundColor: 'transparent',
+    textAlign: 'center',
+    marginRight: '40px',
+    marginLeft: '40px',
+    marginTop: '200px',
+  },
+  title: {
+    fontSize: '2.5rem',
+    color: '#f0f0f0',
+  },
+  pos: {
+    marginBottom: 12,
+  },
+  text: {
+    color: '#9a9a9a',
+    margin: '10px',
+    width: '320px',
+  },
+  text2: {
+    color: '#9a9a9a',
+    fontSize: '0.7rem',
+  },
+  part: {
+    textAlign: 'center',
+  },
+  sha: {
+    textShadow:
+      '0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1)',
+  },
+  steps: {
+    fontSize: '1rem',
+    color: '#ffffff',
+  },
+  stepsmini: {
+    fontSize: '0.8rem',
+    color: '#61DAFB',
+  },
+  circlebutton: {
+    borderRadius: '50%',
+    marginRight: '15px',
+  },
+});
 
 export default Experiences;

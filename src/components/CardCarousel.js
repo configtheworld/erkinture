@@ -8,12 +8,6 @@ const cardItems = [
     title: '...',
     copy: '...',
   },
-  {
-    id: 2,
-    author: 'Vural Mert Dilaver',
-    title: 'Chemical Engineer',
-    copy: "One of the best team members I've ever had. I hope we can work together in the future!",
-  },
 ];
 
 function determineClasses(indexes, cardIndex) {
