@@ -5,17 +5,17 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import { Steps } from 'antd';
-import Chip from '@material-ui/core/Chip';
-import js from '../public/img/logo512.png';
-import node from '../public/img/logo512.png';
+// import Chip from '@material-ui/core/Chip';
+// import js from '../public/img/logo512.png';
+// import node from '../public/img/logo512.png';
 import react from '../public/img/logo512.png';
-import express from '../public/img/logo512.png';
-import java from '../public/img/logo512.png';
-import cpp from '../public/img/logo512.png';
-import py from '../public/img/logo512.png';
-import db1 from '../public/img/logo512.png';
-import db2 from '../public/img/logo512.png';
-import db3 from '../public/img/logo512.png';
+// import express from '../public/img/logo512.png';
+// import java from '../public/img/logo512.png';
+// import cpp from '../public/img/logo512.png';
+// import py from '../public/img/logo512.png';
+// import db1 from '../public/img/logo512.png';
+// import db2 from '../public/img/logo512.png';
+// import db3 from '../public/img/logo512.png';
 const { Step } = Steps;
 
 const useStyles = makeStyles({

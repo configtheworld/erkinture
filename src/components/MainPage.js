@@ -6,14 +6,14 @@ import Projects from './Projects';
 import configtheworldblog from '../public/img/configtheworldblog.png';
 import me from '../public/img/erkin.jpeg';
 import github from '../public/img/githubpp.png';
-import ups from '../public/img/logo512.png';
+//import ups from '../public/img/logo512.png';
 // styles
 import '../public/styles/pulseball.css';
 import '../public/styles/slide.css';
 import Pulse from './Pulse';
 import Desc from './Desc';
 import Stats from './Stats';
-import stackoverflow from '../public/img/logo512.png';
+//import stackoverflow from '../public/img/logo512.png';
 import ContactForm from './ContactForm';
 
 const MainPage = () => {
