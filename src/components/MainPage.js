@@ -4,7 +4,7 @@ import WhoIam from './WhoIam';
 import Experiences from './Experiences';
 import Projects from './Projects';
 import configtheworldblog from '../public/img/configtheworldblog.png';
-import me from '../public/img/erkin.jpeg';
+import me from '../public/img/erkin.jpg';
 import github from '../public/img/githubpp.png';
 import '../public/styles/pulseball.css';
 import '../public/styles/slide.css';
@@ -51,6 +51,7 @@ const MainPage = () => {
                 boxShadow: ' 0 0 0 3px #50514F',
                 zIndex: '2',
                 filter: 'grayscale(30%)',
+                objectFit: 'cover',
               }}
             />
           </Link>
