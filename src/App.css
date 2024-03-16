@@ -50,18 +50,31 @@ body {
 .imagehover:hover {
   transform: translatey(-7%);
   transition: ease 0.3s;
-  -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
 }
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
 
 .header-design {
-  background-color: #7a7a7a;
-  background-image: linear-gradient(326deg, #7a7a7a 0%, #7a7a7a 74%);
   height: 120px;
+  background-image: linear-gradient(to right, #7d73ff, #000, #0fff52);
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -92,7 +105,7 @@ header .footer-wave {
   left: 0;
   z-index: 1;
   bottom: -67px;
-  background: url('public/img/hero-wave.png') repeat-x;
+  background: url("public/img/hero-wave.png") repeat-x;
   animation: wave 10s cubic-bezier(0.44, 0.66, 0.67, 0.37) infinite;
 }
 
@@ -106,7 +119,7 @@ header .footer-wave {
 }
 
 .pset {
-  padding-top: 180px;
+  padding-top: 60px;
   padding-bottom: 80px;
   width: 100%;
 }
