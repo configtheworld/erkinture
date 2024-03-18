@@ -1,27 +1,30 @@
-import { useState, useEffect, Fragment } from 'react';
+import { useState, useEffect, Fragment } from "react";
 
-const Pulse = () => {
-  const [offsetY, setOffsetY] = useState(0);
-  const handleScroll = () => setOffsetY(window.pageYOffset);
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+const Pulse = (props) => {
   return (
     <Fragment>
       <div
         style={{
-          transform: `translateY(${offsetY * 0.5}px)`,
-          marginTop: '200px',
-          position: 'absolute',
-          left: '37%',
+          position: "relative",
+          justifyContent: "center",
+          alignItems: "center",
+          display: "flex",
         }}
       >
-        <div className='animated-bg'>
-          <i></i>
-          <i></i>
-          <i></i>
+        <div
+          style={{
+            marginTop: "200px",
+            position: "absolute",
+            left: props.left,
+            right: props.right,
+            top: 0,
+          }}
+        >
+          <div className="animated-bg">
+            <i></i>
+            <i></i>
+            <i></i>
+          </div>
         </div>
       </div>
     </Fragment>

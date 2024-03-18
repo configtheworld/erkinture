@@ -3,7 +3,15 @@ import Box from "@material-ui/core/Box";
 
 const Desc = () => {
   return (
-    <div style={{ width: "100%", marginTop: "20vh", marginBottom: "50px" }}>
+    <div
+      style={{
+        width: "100%",
+        marginTop: "150px",
+        marginBottom: "50px",
+        height: "150px",
+        position: "relative",
+      }}
+    >
       <Box display="flex" justifyContent="center">
         <div className="headline">
           <h1

@@ -1,12 +1,15 @@
-import './App.css';
-import MainPage from './components/MainPage';
-import 'antd/dist/antd.css';
+import { ParallaxProvider } from "react-scroll-parallax";
+import "./App.css";
+import MainPage from "./components/MainPage";
+import "antd/dist/antd.css";
 
 function App() {
   return (
-    <div className="App">
-      <MainPage />
-    </div>
+    <ParallaxProvider>
+      <div className="App">
+        <MainPage />
+      </div>
+    </ParallaxProvider>
   );
 }
 

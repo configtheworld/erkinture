@@ -1,17 +1,20 @@
 import { Fragment } from "react";
 import WhoIam from "./WhoIam";
 import Experiences from "./Experiences";
+import Education from "./Education";
 import Projects from "./Projects";
 import me from "../public/img/erkin.jpg";
 import "../public/styles/pulseball.css";
 import "../public/styles/slide.css";
 import Pulse from "./Pulse";
 import Desc from "./Desc";
-import Stats from "./Stats";
 import ContactForm from "./ContactForm";
 import SocialMediaButtons from "./SocialMediaButtons";
 import React from "react";
 import Wave from "react-wavify";
+import { Parallax } from "react-scroll-parallax";
+import ServerAnimation from "./ServerAnimation";
+import PCAnimation from "./PCAnimation";
 
 const MainPage = () => {
   return (
@@ -19,7 +22,7 @@ const MainPage = () => {
       <header className="header-design">
         <div className="listar-map-button">
           <img
-            className=""
+            className="ppimage"
             src={me}
             height="150px"
             width="150px"
@@ -28,7 +31,7 @@ const MainPage = () => {
               borderRadius: "50%",
               marginTop: "100px",
               position: "relative",
-              boxShadow: " 0 0 0 6px #50514F",
+              boxShadow: " 0 0 0 6px #555",
               zIndex: "2",
               filter: "grayscale(30%)",
               objectFit: "cover",
@@ -47,14 +50,53 @@ const MainPage = () => {
           }}
         />
       </header>
-
       <Desc />
-      <Pulse />
+      <Parallax key={0} speed={-10}>
+        <ServerAnimation type="200" left="5vw" right="" top="150px" />
+        <ServerAnimation type="401" left="" right="5vw" top="260px" />
+      </Parallax>
       <div className="pset">
-        <WhoIam xs={12} />
-        <Experiences xs={6} />
-        <Projects xs={4} />
-        <ContactForm xs={12} />
+        <Parallax speed={-10}>
+          <WhoIam />
+        </Parallax>
+        <Parallax speed={-10}>
+          <PCAnimation type="200" left="5vw" right="" top="200px" />
+        </Parallax>
+        <Parallax speed={-10}>
+          <ServerAnimation type="200" left="" right="7vw" top="150px" />
+          <ServerAnimation type="200" left="" right="7vw" top="260px" />
+          <ServerAnimation type="401" left="" right="7vw" top="370px" />
+        </Parallax>
+
+        <Parallax speed={0}>
+          <Education />
+        </Parallax>
+        <Parallax speed={-10}>
+          <PCAnimation type="200" left="" right="7vw" top="200px" />
+        </Parallax>
+        <Parallax speed={-10}>
+          <ServerAnimation type="401" left="5vh" right="" top="150px" />
+          <ServerAnimation type="200" left="5vh" right="" top="260px" />
+          <ServerAnimation type="401" left="5vh" right="" top="370px" />
+        </Parallax>
+        <Parallax speed={0}>
+          <Experiences />
+        </Parallax>
+
+        <Parallax speed={0}>
+          <Projects />
+        </Parallax>
+
+        <Parallax speed={-10}>
+          <ServerAnimation type="200" left="" right="5vh" top="150px" />
+          <ServerAnimation type="401" left="" right="5vh" top="260px" />
+        </Parallax>
+        <Parallax speed={-10}>
+          <PCAnimation type="200" left="5vw" right="" top="200px" />
+        </Parallax>
+        <Parallax speed={0}>
+          <ContactForm />
+        </Parallax>
         <SocialMediaButtons />
       </div>
     </Fragment>

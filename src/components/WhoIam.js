@@ -11,10 +11,11 @@ const { Step } = Steps;
 const WhoIam = () => {
   const classes = useStyles();
   return (
-    <div className="will-fadeIn">
+    <div className="central">
       <Card className={classes.root}>
+        <div className="card-header-line"></div>
         <CardContent className={classes.part}>
-          <Typography className={classes.title}>About me</Typography>
+          <Typography className={classes.title}>Summary</Typography>
           <Grid
             container
             direction="row"
@@ -30,17 +31,22 @@ const WhoIam = () => {
               <h3 className={classes.text}>
                 Empathetic Full-stack Developer with 2+ years of software
                 development experience in global agile startups. <br />
+                <br />
                 Proven track record of delivering user-centric reliable web
                 applications with best practices. <br />
+                <br />
                 Proficient in Javascript, Java, PHP, and Python programming
                 languages. <br />
+                <br />
                 Experienced in designing, developing, and testing web
                 applications with ReactJS and VueJS. <br />
+                <br />
                 Skilled in generating RESTful APIs with SQL/NoSQL databases,
                 providing documentation, and troubleshooting using Express and
                 Spring. <br />
+                <br />
                 Committed to personal growth and collaborative team
-                productivity. <br />
+                productivity.
               </h3>
             </Grid>
           </Grid>
@@ -59,8 +65,10 @@ const useStyles = makeStyles({
     zIndex: "10",
     backgroundColor: "transparent",
     textAlign: "center",
-    marginRight: "40px",
-    marginLeft: "40px",
+    marginRight: "10px",
+    marginLeft: "10px",
+    position: "relative",
+    maxWidth: "1150px",
   },
   title: {
     fontSize: "2.5rem",
@@ -73,8 +81,8 @@ const useStyles = makeStyles({
     color: "#9a9a9a",
     margin: "10px",
     width: "auto",
-    textAlign: "start",
-    fontSize: "22px",
+    textAlign: "center",
+    fontSize: "16px",
     lineHeight: "2rem",
   },
   text3: {

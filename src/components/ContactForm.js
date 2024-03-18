@@ -1,47 +1,47 @@
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
-import emailjs from 'emailjs-com';
-import { useState } from 'react';
-import { notification, Row, Spin, message, Modal } from 'antd';
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
+import Typography from "@material-ui/core/Typography";
+import Grid from "@material-ui/core/Grid";
+import emailjs from "emailjs-com";
+import { useState } from "react";
+import { notification, Row, Spin, message, Modal } from "antd";
 
 const { confirm } = Modal;
 
 const ContactForm = () => {
   const classes = useStyles();
   const [form, setform] = useState({
-    title: '',
-    user_mail: '',
-    message: '',
+    title: "",
+    user_mail: "",
+    message: "",
   });
   const [loading, setloading] = useState(false);
 
   const openNotification = () => {
     notification.open({
-      message: 'Success!',
-      description: 'Your Mail Successfully Sent to Me 📩 🥳',
+      message: "Success!",
+      description: "Your Mail Successfully Sent to Me 📩 🥳",
     });
   };
 
   const sendEmail = (e) => {
     setloading(true);
 
-    if (form.message !== '' && form.user_mail !== '' && form.title !== '') {
+    if (form.message !== "" && form.user_mail !== "" && form.title !== "") {
       emailjs
         .sendForm(
-          'service_o1ul95m',
-          'template_g1kmnfd',
+          "service_o1ul95m",
+          "template_g1kmnfd",
           e.target,
-          'user_nqgFv1y7kXeagyfhPnM1J'
+          "user_nqgFv1y7kXeagyfhPnM1J"
         )
         .then((res) => {
           if (res.status === 200) {
             setform({
-              title: '',
-              user_mail: '',
-              message: '',
+              title: "",
+              user_mail: "",
+              message: "",
             });
             openNotification();
           }
@@ -51,29 +51,31 @@ const ContactForm = () => {
           setloading(false);
         });
     } else {
-      message.error('All Field Are Required!');
+      message.error("All Field Are Required!");
       setloading(false);
     }
   };
 
   function showConfirm(e) {
     confirm({
-      title: 'You are about to sent mail',
-      content: '',
+      title: "You are about to sent mail",
+      content: "",
       onOk() {
         sendEmail(e);
       },
       onCancel() {
         // do nothing
-        message.info('Ok, whenever you want :)');
+        message.info("Ok, whenever you want :)");
       },
     });
   }
 
   return (
-    <div className="will-fadeIn">
+    <div className="central">
       <Card className={classes.root}>
         <CardContent className={classes.part}>
+          <div className="card-header-line"></div>
+
           <Typography className={classes.title}>Contact Me </Typography>
           <Grid
             container
@@ -151,41 +153,44 @@ export default ContactForm;
 const useStyles = makeStyles({
   root: {
     minWidth: 275,
-    minHeight: '400px',
-    boxShadow: '7px 18px 50px #111',
-    WebkitBoxShadow: '7px 18px 50px #111',
-    zIndex: '10',
-    backgroundColor: 'transparent',
-    textAlign: 'center',
-    marginRight: '40px',
-    marginLeft: '40px',
-    marginTop: '200px',
+    minHeight: "400px",
+    boxShadow: "7px 18px 50px #111",
+    WebkitBoxShadow: "7px 18px 50px #111",
+    zIndex: "10",
+    backgroundColor: "transparent",
+    textAlign: "center",
+    marginRight: "10px",
+    marginLeft: "10px",
+    marginTop: "200px",
+    position: "relative",
+    width: "100%",
+    maxWidth: "1150px",
   },
   title: {
-    fontSize: '2.5rem',
-    color: '#f0f0f0',
+    fontSize: "2.5rem",
+    color: "#f0f0f0",
   },
   pos: {
     marginBottom: 12,
   },
   text: {
-    color: '#9a9a9a',
-    margin: '10px',
-    width: '320px',
+    color: "#9a9a9a",
+    margin: "10px",
+    width: "320px",
   },
   part: {
-    textAlign: 'center',
+    textAlign: "center",
   },
   sha: {
     textShadow:
-      '0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1)',
+      "0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1)",
   },
   steps: {
-    fontSize: '1rem',
-    color: '#ffffff',
+    fontSize: "1rem",
+    color: "#ffffff",
   },
   stepsmini: {
-    fontSize: '0.8rem',
-    color: '#61DAFB',
+    fontSize: "0.8rem",
+    color: "#61DAFB",
   },
 });

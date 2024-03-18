@@ -11,8 +11,10 @@ const { Step } = Steps;
 const WhoIam = () => {
   const classes = useStyles();
   return (
-    <div className="will-fadeIn">
+    <div className="central">
       <Card className={classes.root}>
+        <div className="card-header-line"></div>
+
         <CardContent className={classes.part}>
           <Typography className={classes.title}>About me</Typography>
           <Grid
@@ -24,6 +26,7 @@ const WhoIam = () => {
             <Grid
               container
               direction="row"
+              item
               sm={4}
               justifyContent="space-around"
               alignItems="center"
@@ -84,6 +87,7 @@ const WhoIam = () => {
               container
               direction="row"
               sm={4}
+              item
               justifyContent="space-around"
               alignItems="center"
             >
@@ -105,6 +109,7 @@ const WhoIam = () => {
               container
               direction="row"
               sm={2}
+              item
               justifyContent="space-around"
               alignItems="center"
             >
@@ -162,6 +167,7 @@ const WhoIam = () => {
               container
               direction="row"
               sm={2}
+              item
               justifyContent="space-around"
               alignItems="center"
             >
@@ -252,8 +258,11 @@ const useStyles = makeStyles({
     zIndex: "10",
     backgroundColor: "transparent",
     textAlign: "center",
-    marginRight: "40px",
-    marginLeft: "40px",
+    marginTop: "200px",
+    marginRight: "10px",
+    marginLeft: "10px",
+    position: "relative",
+    maxWidth: "1150px",
   },
   title: {
     fontSize: "2.5rem",
