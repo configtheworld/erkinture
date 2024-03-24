@@ -1,17 +1,14 @@
 {
   "files": {
-    "main.css": "/erkinture/static/css/main.3517cf69.css",
-    "main.js": "/erkinture/static/js/main.c847b706.js",
+    "main.css": "/erkinture/static/css/main.10bf9631.css",
+    "main.js": "/erkinture/static/js/main.e286bddf.js",
     "static/media/erkin.jpg": "/erkinture/static/media/erkin.01f408d9d360b3798209.jpg",
-    "static/media/ecc.jpeg": "/erkinture/static/media/ecc.1b8b8bb97a6975ef2843.jpeg",
-    "static/media/wastefind.png": "/erkinture/static/media/wastefind.9d122e2d22372a5e8cf7.png",
-    "static/media/start.png": "/erkinture/static/media/start.d4e7663586887058d252.png",
     "index.html": "/erkinture/index.html",
-    "main.3517cf69.css.map": "/erkinture/static/css/main.3517cf69.css.map",
-    "main.c847b706.js.map": "/erkinture/static/js/main.c847b706.js.map"
+    "main.10bf9631.css.map": "/erkinture/static/css/main.10bf9631.css.map",
+    "main.e286bddf.js.map": "/erkinture/static/js/main.e286bddf.js.map"
   },
   "entrypoints": [
-    "static/css/main.3517cf69.css",
-    "static/js/main.c847b706.js"
+    "static/css/main.10bf9631.css",
+    "static/js/main.e286bddf.js"
   ]
 }
