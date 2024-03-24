@@ -22,7 +22,7 @@ const MainPage = () => {
       <header className="header-design">
         <div className="listar-map-button">
           <img
-            className="ppimage"
+            className="ppimage pulse-border"
             src={me}
             height="150px"
             width="150px"
@@ -31,13 +31,12 @@ const MainPage = () => {
               borderRadius: "50%",
               marginTop: "100px",
               position: "relative",
-              boxShadow: " 0 0 0 6px #555",
               zIndex: "2",
-              filter: "grayscale(30%)",
               objectFit: "cover",
             }}
           />
         </div>
+
         <Wave
           fill="#343434"
           paused={false}

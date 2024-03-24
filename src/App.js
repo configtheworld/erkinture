@@ -1,7 +1,6 @@
 import { ParallaxProvider } from "react-scroll-parallax";
 import "./App.css";
 import MainPage from "./components/MainPage";
-import "antd/dist/antd.css";
 
 function App() {
   return (

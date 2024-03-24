@@ -7,7 +7,7 @@ const Desc = () => {
       style={{
         width: "100%",
         marginTop: "150px",
-        marginBottom: "50px",
+        marginBottom: "",
         height: "150px",
         position: "relative",
       }}

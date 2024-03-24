@@ -13,7 +13,7 @@ const Pulse = (props) => {
       >
         <div
           style={{
-            marginTop: "200px",
+            marginTop: "100px",
             position: "absolute",
             left: props.left,
             right: props.right,

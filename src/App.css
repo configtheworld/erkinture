@@ -1,3 +1,5 @@
+@import "antd/dist/antd.css";
+
 html {
   scroll-behavior: smooth;
   /* --scrollbarBG: #7a7a7a;
@@ -162,7 +164,7 @@ header .footer-wave {
 }
 
 .ant-notification-notice-message {
-  color: #60d9fa !important;
+  color: #7d73ff !important;
   font-size: 24px !important;
 }
 
@@ -177,9 +179,13 @@ header .footer-wave {
   margin: 10px;
   font-size: 20px;
   padding-left: 10px;
-  border: 2px solid #60d9fa;
+  border: 2px solid #7d73ff;
   background-color: #555;
   color: #fff;
+}
+
+.contact_form_input:focus {
+  border-color: #0fff52;
 }
 
 .contact_form_textarea {
@@ -188,7 +194,7 @@ header .footer-wave {
   margin: 10px;
   font-size: 20px;
   padding-left: 10px;
-  border: 2px solid #60d9fa;
+  border: 2px solid #7d73ff;
   background-color: #555;
   color: #fff;
 }
@@ -200,12 +206,12 @@ header .footer-wave {
   border: 0;
   font-size: 24px;
   background-color: #313131;
-  color: #60d9fa;
+  color: #7d73ff;
   cursor: pointer;
 }
 
 .contact_form_submit_btn:hover {
-  background-color: #60d9fa;
+  background-color: #7d73ff;
   color: #313131;
   transition: 1s;
 }
@@ -214,7 +220,7 @@ header .footer-wave {
   color: #f0f0f0;
 }
 .ant-modal-confirm-title {
-  color: #60d9fa !important;
+  color: #7d73ff !important;
 }
 .ant-modal-confirm-confirm .ant-modal-confirm-body > .anticon {
   color: #fff !important;
@@ -227,7 +233,7 @@ header .footer-wave {
 
 .ant-message-notice-content {
   background-color: #555 !important;
-  color: #60d9fa;
+  color: #7d73ff;
 }
 
 .ppimage:hover {
@@ -415,4 +421,83 @@ header .footer-wave {
   .element-to-hide-in-mobile {
     visibility: hidden;
   }
+}
+
+.pulse-border {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 6px rgba(15, 255, 82, 0.2);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(125, 115, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 6px rgba(15, 255, 82, 0.2);
+  }
+}
+
+.ant-steps-item-finish
+  > .ant-steps-item-container
+  > .ant-steps-item-tail::after {
+  background-color: #0fff52;
+}
+
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: #0fff52 !important;
+}
+
+.ant-steps-vertical.ant-steps-dot .ant-steps-item .ant-steps-icon-dot {
+  background-color: #0fff52;
+}
+
+.tag {
+  height: 30px;
+  border-radius: 10px;
+  margin: 3px;
+  width: auto; /* Allow width to adjust based on content */
+  padding: 2px 12px 2px 6px;
+  border: #7d73ff 1px solid;
+  color: #fff;
+  display: inline-flex; /* Use inline-flex for dynamic width */
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.tag-dot {
+  height: 10px;
+  width: 10px;
+  background-color: #0fff52;
+  border-radius: 50%;
+  margin: 0 10px 0 5px;
+}
+
+.tag-sm {
+  height: 22px;
+  border-radius: 7px;
+  margin: 2px;
+  width: auto; /* Allow width to adjust based on content */
+  padding: 2px 12px 2px 6px;
+  border: #7d73ff 1px solid;
+  color: #e0e0e0;
+  display: inline-flex; /* Use inline-flex for dynamic width */
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 0.8rem;
+}
+
+.tag-dot-sm {
+  height: 5px;
+  width: 5px;
+  background-color: #0fff52;
+  border-radius: 50%;
+  margin: 0 6px 0 3px;
+}
+
+.ant-steps-item-title {
+  width: 100%;
 }

@@ -76,7 +76,12 @@ const ContactForm = () => {
         <CardContent className={classes.part}>
           <div className="card-header-line"></div>
 
-          <Typography className={classes.title}>Contact Me </Typography>
+          <Typography className={classes.title}>Contact</Typography>
+          <Typography className={classes.descText}>
+            {
+              "Feel free to reach out using the contact form below. Whether it's a potential collaboration, a question about my work, or simply to share your thoughts, I'm here to listen and respond. Your message will be delivered directly to my inbox, and I'll do my best to get back to you as soon as possible :)"
+            }
+          </Typography>
           <Grid
             container
             direction="row"
@@ -157,7 +162,7 @@ const useStyles = makeStyles({
     boxShadow: "7px 18px 50px #111",
     WebkitBoxShadow: "7px 18px 50px #111",
     zIndex: "10",
-    backgroundColor: "transparent",
+    backgroundColor: "rgba(52, 52, 52, 0.6)",
     textAlign: "center",
     marginRight: "10px",
     marginLeft: "10px",
@@ -181,16 +186,11 @@ const useStyles = makeStyles({
   part: {
     textAlign: "center",
   },
-  sha: {
-    textShadow:
-      "0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1)",
-  },
-  steps: {
+  descText: {
+    color: "#ccc",
     fontSize: "1rem",
-    color: "#ffffff",
-  },
-  stepsmini: {
-    fontSize: "0.8rem",
-    color: "#61DAFB",
+    textAlign: "center",
+    paddingLeft: "5vw",
+    paddingRight: "5vw",
   },
 });

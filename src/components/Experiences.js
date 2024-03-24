@@ -5,11 +5,7 @@ import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import { Steps } from "antd";
-import waste from "../public/img/wastefind.png";
-import unity from "../public/img/aunity.png";
-
-import start4ups from "../public/img/start.png";
-import ecc from "../public/img/ecc.jpeg";
+import Tag from "./core/Tag";
 const { Step } = Steps;
 const Experiences = () => {
   const classes = useStyles();
@@ -19,56 +15,256 @@ const Experiences = () => {
       <Grid
         container
         direction="row"
-        sm={4}
-        item
-        justifyContent="center"
+        justifyContent="space-around"
         alignItems="center"
+        sm={9}
       >
-        <Steps progressDot direction="vertical" current={4}>
+        <Steps progressDot direction="vertical" current={10}>
           <Step
             title={
-              <div className={classes.steps}>
-                Solwider. - Frontend Web Developer
-              </div>
+              <Grid
+                container
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+              >
+                <div className={classes.steps}>
+                  Front-End Working Student Developer
+                </div>
+                <a
+                  href="https://www.capo.build/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.stepsmini}>
+                    @ CAPO Digital Solutions GmbH - Passau, Germany
+                  </div>
+                </a>
+              </Grid>
             }
             description={
               <div className={classes.stepsmini}>
-                Ankara, Turkey - Jan 2021 - June 2021
+                <div className={classes.stepsminiList}>
+                  <ul className={classes.list}>
+                    <li>
+                      Implemented project planning, BIM viewer, AI chat, and
+                      live messaging to Vue application as a member of a
+                      10-person startup.
+                    </li>
+                    <li>
+                      Built a company homepage with localization and SEO
+                      optimization, achieving an 80% increase in search engine
+                      rankings.
+                    </li>
+                    <li>
+                      <div className={classes.listBox}>
+                        Tech Stack:
+                        <Tag size="sm">Next.js</Tag>
+                        <Tag size="sm">Vue.js</Tag>
+                        <Tag size="sm">Typescript</Tag>
+                        <Tag size="sm">Pinia</Tag>
+                        <Tag size="sm">TailwindCSS</Tag>
+                        <Tag size="sm">ASP.Net</Tag>
+                        <Tag size="sm">i18next</Tag>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                Dec 2022 - Sep 2023
               </div>
             }
           />
-
           <Step
             title={
-              <div className={classes.steps}>
-                Jotform - Web Development Intern
-              </div>
+              <Grid
+                container
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+              >
+                <div className={classes.steps}>Front-End Developer</div>
+                <a href="https://integrio.io/" target="_blank" rel="noreferrer">
+                  <div className={classes.stepsmini}>
+                    @ Integrio - Remote, Turkey
+                  </div>
+                </a>
+              </Grid>
             }
             description={
               <div className={classes.stepsmini}>
-                Ankara, Turkey - July 2021 - September 2021
+                <div className={classes.stepsminiList}>
+                  <ul className={classes.list}>
+                    <li>
+                      Contributed over 15,000 lines of code to a web portal
+                      application that provides 70% operational efficiency
+                      between pharmaceutical companies and pharma- cies in
+                      Turkey. Over 14,000 pharmacies actively use the Kemi
+                      Portal.
+                    </li>
+                    <li>
+                      Built a company homepage with localization and SEO
+                      optimization, achieving an 80% increase in search engine
+                      rankings.
+                    </li>
+                    <li>
+                      <div className={classes.listBox}>
+                        Tech Stack: <Tag size="sm">Typescript</Tag>
+                        <Tag size="sm">React JS</Tag>
+                        <Tag size="sm">Docker</Tag>
+                        <Tag size="sm">Ant Design</Tag>
+                        <Tag size="sm">Saas</Tag>
+                        <Tag size="sm">Storybook</Tag>
+                        <Tag size="sm">Jest</Tag>
+                        <Tag size="sm">Redux</Tag>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                Sep 2021 - Sep 2022
               </div>
             }
           />
-
           <Step
             title={
-              <div className={classes.steps}>
-                SolaVieve - Full Stack Web Developer Intern
-              </div>
+              <Grid
+                container
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+              >
+                <div className={classes.steps}>Web Development Intern</div>
+                <a
+                  href="https://www.jotform.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.stepsmini}>
+                    @ Jotform - Ankara, Turkey
+                  </div>
+                </a>
+              </Grid>
             }
             description={
               <div className={classes.stepsmini}>
-                Heidelberg, Germany (remote) - June 2021 - September 2021
+                <div className={classes.stepsminiList}>
+                  <ul className={classes.list}>
+                    <li>
+                      Produced Jotform form translator Web application and API
+                      services as a part of a 7-person team.
+                    </li>
+                    <li>
+                      Enabled form-translation to desired language via this
+                      internship project.
+                    </li>
+                    <li>
+                      <div className={classes.listBox}>
+                        Tech Stack: <Tag size="sm">PHP</Tag>
+                        <Tag size="sm">MySQL</Tag>
+                        <Tag size="sm">React JS</Tag>
+                        <Tag size="sm">CSS</Tag>
+                        <Tag size="sm">Jotform Public API</Tag>
+                        <Tag size="sm">Google Translation API</Tag>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                Jul 2021 - Sep 2021
               </div>
             }
           />
           <Step
             title={
-              <div className={classes.steps}>Integrio - Frontend Developer</div>
+              <Grid
+                container
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+              >
+                <div className={classes.steps}>
+                  Full Stack Web Developer Intern
+                </div>
+                <a
+                  href="https://holisticly.io/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.stepsmini}>
+                    @ Solavieve Technology GmbH - Heidelberg, Germany
+                  </div>
+                </a>
+              </Grid>
             }
             description={
-              <div className={classes.stepsmini}>Sep 2021 - Present</div>
+              <div className={classes.stepsmini}>
+                <div className={classes.stepsminiList}>
+                  <ul className={classes.list}>
+                    <li>
+                      Integrated a chatbot. Optimized front-end, back-end apps,
+                      and databases
+                    </li>
+                    <li>
+                      Achieved a 28% increase in conversions on A/B tests by
+                      merging chatbot.
+                    </li>
+                    <li>
+                      <div className={classes.listBox}>
+                        Tech Stack: <Tag size="sm">React JS</Tag>
+                        <Tag size="sm">Express.js</Tag>
+                        <Tag size="sm">PostgreSQL</Tag>
+                        <Tag size="sm">Saas</Tag>
+                        <Tag size="sm">Bootstrap</Tag>
+                        <Tag size="sm">Material UI</Tag>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                Jun 2021 - Sep 2021
+              </div>
+            }
+          />
+          <Step
+            title={
+              <Grid
+                container
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+              >
+                <div className={classes.steps}>
+                  Working Student Front-End Developer
+                </div>
+                <a
+                  href="https://www.linkedin.com/company/solwidersoftware/about/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.stepsmini}>
+                    @ Solwider - Ankara, Turkey
+                  </div>
+                </a>
+              </Grid>
+            }
+            description={
+              <div className={classes.stepsmini}>
+                <div className={classes.stepsminiList}>
+                  <ul className={classes.list}>
+                    <li>
+                      Integrated a food delivery routing Web dashboard to show
+                      the shortest path.
+                    </li>
+                    <li>
+                      <div className={classes.listBox}>
+                        Tech Stack: <Tag size="sm">React JS</Tag>
+                        <Tag size="sm">Redis</Tag>
+                        <Tag size="sm">Redux</Tag>
+                        <Tag size="sm">Google Maps API</Tag>
+                        <Tag size="sm">Material UI</Tag>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                Jan 2021 - Jun 2021
+              </div>
             }
           />
         </Steps>
@@ -76,111 +272,6 @@ const Experiences = () => {
     );
   };
 
-  const VolunteerWork = () => {
-    return (
-      <Grid
-        container
-        direction="row"
-        sm={4}
-        item
-        justifyContent="center"
-        alignItems="flex-start"
-      >
-        <div className={classes.text}>Volunteer Experiences</div>
-        <h5 className={classes.text}>
-          <br />
-          <div style={{ textAlign: "start", marginLeft: "22px" }}>
-            <img
-              src={start4ups}
-              height="50px"
-              width="50px"
-              alt="start4ups"
-              className={classes.circlebutton}
-              style={{ backgroundColor: "#2e2e2e" }}
-            />
-            <span className={classes.stepsmini}>Entrepreneur Project</span>{" "}
-            Start4ups
-          </div>
-          <br />
-          Platform project which brings investors and ideas together, startup
-          network
-          <hr style={{ border: "1px solid #555" }}></hr>
-          <br />
-          <img
-            src={ecc}
-            height="50px"
-            width="50px"
-            alt="ECC"
-            className={classes.circlebutton}
-            style={{ backgroundColor: "#2e2e2e" }}
-          />
-          <span className={classes.stepsmini}>Social Project</span> Leader of
-          English Conversation Club
-          <br />
-          Gazi University Engineering Faculty - Since 2018
-        </h5>
-      </Grid>
-    );
-  };
-
-  const FinalProjects = () => {
-    return (
-      <Grid
-        container
-        direction="row"
-        sm={4}
-        item
-        justifyContent="space-around"
-        alignItems="center"
-      >
-        <div className={classes.text}>Final Projects</div>
-        <h5 className={classes.text}>
-          <div style={{ textAlign: "start", marginLeft: "22px" }}>
-            <a
-              href="https://wastefindio.netlify.app/"
-              style={{ textDecorationColor: "none" }}
-            >
-              <img
-                src={waste}
-                height="50px"
-                alt="start4ups"
-                className={classes.circlebutton}
-              />
-
-              <span className={classes.stepsmini}>WasteFind</span>
-            </a>
-            {"  Final Project I"}
-          </div>
-          <br />
-          WasteFind provides solutions for society and material collectors who
-          want to recycle their waste with the help of Image processing and use
-          the mapping/routing features for recycling centers in their living
-          areas easily at once by earning coins. Our project aims to encourage
-          recycling and turn it into a habit for everyone who wants to
-          contribute to natural recycling but doesn't know-how.
-          <hr style={{ border: "1px solid #555" }}></hr>
-          <br />
-          <div style={{ textAlign: "start", marginLeft: "22px" }}>
-            <img
-              src={unity}
-              height="50px"
-              width="50px"
-              alt="ECC"
-              className={classes.circlebutton}
-              style={{ backgroundColor: "#2e2e2e" }}
-            />
-            <span className={classes.stepsmini}>NFT Auction Game</span>
-            {" Final Project II"}
-          </div>
-          <br />
-          In order to observe and experience both simple and combinatorial
-          auctions on NFT trade, I am building an interactive 3D game on the
-          Unity game engine with crypto wallet authentication, marketplace
-          integrations for analyzing with user behaviors.
-        </h5>
-      </Grid>
-    );
-  };
   return (
     <div className="central">
       <Card className={classes.root}>
@@ -193,9 +284,6 @@ const Experiences = () => {
             justifyContent="space-around"
             alignItems="center"
           >
-            <FinalProjects />
-
-            <VolunteerWork />
             <ExperinceSteps />
           </Grid>
         </CardContent>
@@ -211,17 +299,19 @@ const useStyles = makeStyles({
     boxShadow: "7px 18px 50px #111",
     WebkitBoxShadow: "7px 18px 50px #111",
     zIndex: "10",
-    backgroundColor: "transparent",
+    backgroundColor: "rgba(52, 52, 52, 0.6)",
     textAlign: "center",
+    marginTop: "200px",
     marginRight: "10px",
     marginLeft: "10px",
-    marginTop: "200px",
     position: "relative",
     maxWidth: "1150px",
+    width: "100%",
   },
   title: {
     fontSize: "2.5rem",
     color: "#f0f0f0",
+    marginBottom: "20px",
   },
   pos: {
     marginBottom: 12,
@@ -229,11 +319,14 @@ const useStyles = makeStyles({
   text: {
     color: "#9a9a9a",
     margin: "10px",
-    width: "320px",
+    width: "340px",
   },
-  text2: {
+  text3: {
     color: "#9a9a9a",
-    fontSize: "0.7rem",
+    margin: "10px",
+    width: "200px",
+    fontSize: "0.8rem",
+    textAlign: "center",
   },
   part: {
     textAlign: "center",
@@ -243,16 +336,42 @@ const useStyles = makeStyles({
       "0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1),0px 4px 3px rgba(0,0,0,0.1)",
   },
   steps: {
-    fontSize: "1rem",
+    fontSize: "1.1rem",
     color: "#ffffff",
   },
   stepsmini: {
-    fontSize: "0.8rem",
-    color: "#61DAFB",
+    fontSize: "1rem",
+    color: "#A099FF",
   },
+
   circlebutton: {
     borderRadius: "50%",
     marginRight: "15px",
+  },
+  text2: {
+    color: "#9a9a9a",
+    fontSize: "0.7rem",
+  },
+  titleBox: {
+    marginTop: "5px",
+    marginBottom: "20px",
+  },
+  subTitle: {
+    fontSize: "1.5rem",
+    color: "#ffffff",
+    textAlign: "start",
+  },
+  listBox: {
+    display: "flex",
+    flexWrap: "wrap",
+  },
+  stepsminiList: {
+    color: "#ccc",
+    fontSize: "0.9rem",
+    textAlign: "start",
+  },
+  list: {
+    paddingLeft: "13px",
   },
 });
 

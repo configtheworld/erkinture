@@ -4,9 +4,6 @@ import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import { Steps } from "antd";
-import react from "../public/img/logo512.png";
-const { Step } = Steps;
 
 const WhoIam = () => {
   const classes = useStyles();
@@ -78,7 +75,7 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
   text: {
-    color: "#9a9a9a",
+    color: "#f0f0f0",
     margin: "10px",
     width: "auto",
     textAlign: "center",
