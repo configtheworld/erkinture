@@ -19,9 +19,9 @@ const WhoIam = () => {
             container
             direction="row"
             justifyContent="space-around"
-            alignItems="start"
+            alignItems="flex-start"
           >
-            <Grid container direction="row" item sm={5} alignItems="start">
+            <Grid container direction="row" item sm={5} alignItems="flex-start">
               <Typography className={classes.title}>Education </Typography>
               <Steps progressDot direction="vertical" current={3}>
                 <Step
@@ -60,8 +60,8 @@ const WhoIam = () => {
               direction="row"
               sm={4}
               item
-              justifyContent="start"
-              alignItems="start"
+              justifyContent="flex-start"
+              alignItems="flex-start"
             >
               <Typography className={classes.title}>Soft Skills </Typography>
               <div>

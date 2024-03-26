@@ -2,42 +2,11 @@
 
 html {
   scroll-behavior: smooth;
-  /* --scrollbarBG: #7a7a7a;
-  --thumbBG: #343434; */
 }
-/* body::-webkit-scrollbar {
-  width: 15px;
-} */
-body {
-  /* scrollbar-width: thin;
-  scrollbar-color: var(--thumbBG) var(--scrollbarBG); */
-}
-body::-webkit-scrollbar-track {
-  /* background: var(--scrollbarBG); */
-}
-body::-webkit-scrollbar-thumb {
-  /* background-color: var(--thumbBG);
-  border-radius: 6px;
-  border: 3px solid var(--scrollbarBG); */
-}
-
-/* horizonal scrollbar*/
-/* ::-webkit-scrollbar {
-  height: 15px;
-  background: #7a7a7a;
-  border-radius: 6px;
-} */
-/* ::-webkit-scrollbar-thumb:horizontal {
-  background: #2b2b2b;
-  border-radius: 6px;
-  height: 5px;
-  border: 3px solid var(--scrollbarBG);
-} */
 
 body {
   width: 100%;
   min-height: 100vh;
-  /*background-image: linear-gradient(#343434, #161B22);*/
   background-color: #343434 !important;
   min-height: calc(100vh - var(--vh-offset, 0px));
   overflow-x: hidden;
@@ -103,8 +72,6 @@ body {
 
 .listar-map-button {
   right: auto;
-  /***
-    box-shadow: 0 0 65px rgba(0,0,0,.07) inset, 0 0 35px rgba(0,0,0,.05) inset;**/
 }
 .sha {
   text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1), 0px 4px 3px rgba(0, 0, 0, 0.1),
@@ -117,7 +84,6 @@ header .footer-wave {
   left: 0;
   z-index: 1;
   bottom: -67px;
-  background: url("public/img/hero-wave.png") repeat-x;
   animation: wave 10s cubic-bezier(0.44, 0.66, 0.67, 0.37) infinite;
 }
 
@@ -145,8 +111,7 @@ header .footer-wave {
   margin: 10px;
 }
 .socialmediabuttonimage:hover {
-  transform: scale(1.5);
-  transition: 0.5s ease;
+  transform: scale(1.2);
 }
 
 .example_spin_antd {

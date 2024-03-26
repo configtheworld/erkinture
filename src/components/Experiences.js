@@ -14,6 +14,7 @@ const Experiences = () => {
     return (
       <Grid
         container
+        item
         direction="row"
         justifyContent="space-around"
         alignItems="center"
