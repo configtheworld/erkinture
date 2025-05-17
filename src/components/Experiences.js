@@ -29,6 +29,61 @@ const Experiences = () => {
                 justifyContent="space-between"
                 alignItems="center"
               >
+                <div className={classes.steps}>Software Developer</div>
+                <a
+                  href="https://www.hetzner.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className={classes.stepsmini}>
+                    @ Hetzner Online GmbH - Nuremberg, Germany
+                  </div>
+                </a>
+              </Grid>
+            }
+            description={
+              <div className={classes.stepsmini}>
+                <div className={classes.stepsminiList}>
+                  <ul className={classes.list}>
+                    <li>
+                      Developed and deployed scalable web applications using
+                      modern frontend and backend technologies
+                    </li>
+                    <li>
+                      Maintained, refactored, and optimized existing web
+                      applications to improve performance, usability, and code
+                      quality
+                    </li>
+                    <li>
+                      Designed and implemented UI library, including advanced,
+                      fully reusable component blocks to accelerate development
+                      and ensure design consistency
+                    </li>
+                    <li>
+                      <div className={classes.listBox}>
+                        Tech Stack:
+                        <Tag size="sm">React.js</Tag>
+                        <Tag size="sm">Typescript</Tag>
+                        <Tag size="sm">PHP</Tag>
+                        <Tag size="sm">Next.js</Tag>
+                        <Tag size="sm">TailwindCSS</Tag>
+                        <Tag size="sm">Storybook</Tag>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                Jun 2024 - Present
+              </div>
+            }
+          />
+          <Step
+            title={
+              <Grid
+                container
+                direction="row"
+                justifyContent="space-between"
+                alignItems="center"
+              >
                 <div className={classes.steps}>
                   Front-End Working Student Developer
                 </div>

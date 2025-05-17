@@ -81,9 +81,7 @@ function SocialMediaButtons() {
       </a>
 
       <br />
-      <small style={{ color: "#111" }}>
-        © 2024 Developed by Erkin Berk Türe
-      </small>
+      <small style={{ color: "#111" }}>© 2024 Developed by Erkin Ture</small>
     </div>
   );
 }
