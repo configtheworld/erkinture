@@ -6,7 +6,6 @@ import Projects from "./Projects";
 import me from "../public/img/erkin.jpg";
 import "../public/styles/slide.css";
 import Desc from "./Desc";
-import ContactForm from "./ContactForm";
 import SocialMediaButtons from "./SocialMediaButtons";
 import React from "react";
 import Wave from "react-wavify";
@@ -84,16 +83,6 @@ const MainPage = () => {
           <Projects />
         </Parallax>
 
-        <Parallax speed={-10}>
-          <ServerAnimation type="200" left="" right="5vh" top="150px" />
-          <ServerAnimation type="401" left="" right="5vh" top="260px" />
-        </Parallax>
-        <Parallax speed={-10}>
-          <PCAnimation type="200" left="5vw" right="" top="200px" />
-        </Parallax>
-        <Parallax speed={0}>
-          <ContactForm />
-        </Parallax>
         <SocialMediaButtons />
       </div>
     </Fragment>
