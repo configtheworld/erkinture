@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/erkinture/static/css/main.67482b05.css",
-    "main.js": "/erkinture/static/js/main.18b2d388.js",
+    "main.js": "/erkinture/static/js/main.783b56e5.js",
     "static/media/erkin.jpg": "/erkinture/static/media/erkin.01f408d9d360b3798209.jpg",
     "index.html": "/erkinture/index.html",
     "main.67482b05.css.map": "/erkinture/static/css/main.67482b05.css.map",
-    "main.18b2d388.js.map": "/erkinture/static/js/main.18b2d388.js.map"
+    "main.783b56e5.js.map": "/erkinture/static/js/main.783b56e5.js.map"
   },
   "entrypoints": [
     "static/css/main.67482b05.css",
-    "static/js/main.18b2d388.js"
+    "static/js/main.783b56e5.js"
   ]
 }
